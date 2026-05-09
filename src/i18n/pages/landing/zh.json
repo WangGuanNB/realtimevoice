@@ -1,0 +1,559 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "ShipFire",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "ShipFire"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "首页",
+          "url": "/",
+          "icon": "RiHomeLine"
+        },
+        {
+          "title": "图片生成器",
+          "url": "/image-generator",
+          "icon": "RiImageLine"
+        },
+        {
+          "title": "定价",
+          "url": "/pricing",
+          "icon": "RiPriceTag3Line"
+        },
+        {
+          "title": "博客",
+          "url": "/blog",
+          "icon": "RiArticleLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "ShipFire: 3 分钟内构建您的 SaaS 网站",
+    "highlight_text": "闪电般快速",
+    "description": "专为全球独立开发者设计的免费网站构建器。零代码，48 小时内发布产品，内置 AI 优化工具。",
+    "announcement": {
+      "label": "限时",
+      "title": "永久免费",
+      "url": "/#features"
+    },
+  
+    "images": [
+      {
+        "src": "/imgs/features/1.png",
+        "alt": "ShipFire 网站构建示例 1",
+        "title": "构建您的 SaaS 网站"
+      },
+      {
+        "src": "/imgs/features/2.png",
+        "alt": "ShipFire 网站模板示例 2", 
+        "title": "50+ 专业模板"
+      }
+    ],
+    "layout": "left-image-right-content",
+    "variant": "compact",
+    "enable_carousel": true,
+    "buttons": [
+      {
+        "title": "立即免费构建 SaaS",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "探索功能",
+        "url": "/#feature",
+        "target": "_self",
+        "variant": "secondary"
+      }
+    ],
+    "metrics": [
+      "免费",
+      "50,000+ 开发者信赖"
+    ],
+    "stats": [
+      {
+        "value": "50,000+",
+        "label": "涂鸦创作者",
+        "icon": "RiUserLine"
+      },
+      {
+        "value": "200,000+",
+        "label": "生成的涂鸦艺术作品",
+        "icon": "RiImageLine"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "由尖端AI技术驱动",
+    "items": [
+      {
+        "title": "OpenAI",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "OpenAI"
+        }
+      },
+      {
+        "title": "计算机视觉",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "计算机视觉"
+        }
+      },
+      {
+        "title": "神经网络",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "神经网络"
+        }
+      },
+      {
+        "title": "机器学习",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "机器学习"
+        }
+      },
+      {
+        "title": "云端处理",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "云端处理"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 ShipFire",
+    "label": "OVERVIEW",
+    "description": "一个面向全球开发者的 SaaS 网站构建平台，帮助您的产品快速触达全球用户。",
+    "image": {
+      "src": "/imgs/features/1.webp"
+    },
+    "items": [
+      {
+        "title": "ShipFire 免费网站构建器",
+        "description": "完全免费的在线构建系统—无需编码。它集成了关键模块，如支付系统、用户管理和分析。拖放界面让您专注于产品，而我们处理技术。只需3分钟即可上线。",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "核心资源库"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "查看价格",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipFire AI 优化引擎",
+        "description": "内置 AI 自动分析用户行为。AI 助手提供实时改进建议，将转化率提升高达 40%。从文案到布局调整，您的网站始终保持最佳营销状态，无需雇佣团队。",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "涂鸦生成器 AI 优化街头艺术"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "查看价格",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipFire 在线一键部署",
+        "description": "云托管确保 99.9% 的正常运行时间。全球 CDN 为全球用户提供快速访问。自动 SSL、域名绑定和 SEO 优化全部包含—零技术障碍，让创始人可以完全专注于产品。",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "ShipFire 一键部署到生产环境"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "查看价格",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipFire 50+ 专业模板",
+        "description": "50+ 针对 SaaS 优化的模板，涵盖工具、服务、社区等。每个模板都经过转化优化，支持拖拽自定义。选择模板、添加内容、一键上线—无需设计技能。",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "ShipFire 专业模板库"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "查看价格",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么开发者选择 ShipFire",
+    "label": "Core Benefits",
+    "description": "零成本启动，具备专业级功能，让您的 SaaS 从第一天起就获胜。",
+    "items": [
+      {
+        "title": "真正零成本",
+        "description": "ShipFire 100% 免费，无隐藏费用。在其他地方需要 $49–299/月的功能—无限页面、用户管理、支付集成、分析仪表板—在这里全部解锁。非常适合独立开发者，节省数千早期成本，让您可以投资于产品和营销。",
+        "icon": "RiStarLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "真实的涂鸦生成器街头艺术预览"
+        },
+        "buttons": [
+          {
+            "title": "免费创建",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "闪电般快速",
+        "description": "从创建账户到发布网站只需 3 分钟。从 50+ 个针对 SaaS 优化的模板中选择，自定义并发布。相比传统开发所需的 2–4 周，ShipFire 帮助您提前一个月进入市场。自动化工作流程处理更新和备份，让您可以专注于增长。",
+        "icon": "RiGiftLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "涂鸦生成器免费访问界面"
+        },
+        "buttons": [
+          {
+            "title": "免费创建",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "为全球扩张优化",
+        "description": "深刻理解面向全球的开发者的需求。支持 20+ 种语言，具有自动翻译、多币种支付和符合 GDPR 的数据处理。集成的 Google Analytics 和 Meta Pixel 帮助您跟踪海外表现。在 15 个地区拥有服务器，美国和欧洲的用户体验接近本地速度。",
+        "icon": "RiSpeedLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "涂鸦生成器简单工作流程截图"
+        },
+        "buttons": [
+          {
+            "title": "免费创建",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "label": "HOW TO USE",
+    "title": "如何构建 ShipFire 网站",
+    "description": "通过三个简单步骤创建专业网站—完全在线，仅需180秒。",
+    "items": [
+      {
+        "title": "选择模板",
+        "description": "浏览50+精心制作的SaaS模板，涵盖工具、服务、社区等。每个模板都针对转化进行了优化—只需选择并开始自定义。",
+        "icon": "RiEditLine"
+      },
+      {
+        "title": "自定义您的内容",
+        "description": "使用 ShipFire 在线编辑器修改文本、图像和颜色。AI助手根据您的产品类型建议文案和布局。即时预览更改。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "一键发布",
+        "description": "点击发布即可自动配置域名绑定、SSL证书和CDN部署。您的网站立即上线，更新同样轻松。",
+        "icon": "RiSettings3Line"
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "label": "FEATURES",
+    "title": "ShipFire 核心功能概览",
+    "description": "企业级功能，为独立开发者简化，推动您的产品增长。",
+    "items": [
+      {
+        "title": "可视化编辑器",
+        "description": "拖放界面，实时预览。50+ 组件库让您无需设计技能即可创建自定义布局。",
+        "icon": "RiEyeLine"
+      },
+      {
+        "title": "用户认证系统",
+        "description": "支持邮箱、Google、GitHub 等。自动管理权限和订阅层级。内置试用和升级流程将留存率提升 35%。",
+        "icon": "RiHdLine"
+      },
+      {
+        "title": "支付集成",
+        "description": "与 Stripe 和 PayPal 集成。处理订阅计费、发票、退款等—让您摆脱后端复杂性。",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "分析仪表板",
+        "description": "实时跟踪用户行为、漏斗和收入趋势。清晰的可视化图表帮助您发现增长机会，将 ROI 提升高达 50%。",
+        "icon": "RiStarSLine"
+      },
+      {
+        "title": "自动 SEO 优化",
+        "description": "自动生成标题、描述和 schema 标记。自动提交到搜索引擎并优化加载速度以获得更高的 Google 排名。",
+        "icon": "RiCloudLine"
+      },
+      {
+        "title": "电子邮件营销工具",
+        "description": "内置电子邮件发送，用于欢迎消息、产品更新、营销活动等。A/B 测试帮助您发现高性能文案，将打开率提高 45%。",
+        "icon": "RiShareLine"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "统计",
+    "title": "开发者信赖 ShipFire",
+    "description": "在全球范围内获得专业品质的网站构建和闪电般快速的部署。",
+    "icon": "RiHeartLine",
+    "items": [
+      {
+        "title": "信赖用户",
+        "label": "12,847+",
+        "description": "创作者"
+      },
+      {
+        "title": "生成图像",
+        "label": "89,432+",
+        "description": "微缩作品"
+      },
+      {
+        "title": "处理速度",
+        "label": "<10",
+        "description": "秒"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "推荐",
+    "title": "开发者对 ShipFire 的评价",
+    "description": "看看全球开发者如何使用 ShipFire 加速他们的业务。",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Leo",
+        "label": "街头服饰品牌主",
+        "description": "我曾经花三周时间构建一个网站，只获得了不到 2% 的转化率。使用 ShipFire 免费版，我在 3 小时内重建了一切，达到了 8.5%。现在我的所有时间都用于产品开发。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mei",
+        "label": "社交媒体经理",
+        "description": "我们的团队没有前端开发人员，Webflow 太贵了。改用 ShipFire 每年为我们节省了 $3,600，AI 优化识别了 5 个问题，使我们的 MRR 提升了 38%。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Robin",
+        "label": "视觉设计讲师",
+        "description": "AI 建议是我的最爱。上周它推荐了一个定价页面调整—应用后，我们的付费转化率从 4% 跃升至 6.2%，每月额外产生 $2,000。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "艾玛·泰勒",
+        "label": "内容创作者",
+        "description": "我使用 ShipFire 为客户构建了 12 个落地页，每个大约 20 分钟。内置的 A/B 测试和分析简化了优化—客户 ROI 提高了 55%。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      },
+      {
+        "title": "卡洛斯·马丁内斯",
+        "label": "T恤设计师",
+        "description": "我销售在线课程，WordPress 插件总是导致冲突。ShipFire 使我的网站速度提高了三倍，并使结账更加顺畅。退款下降了 70%—学生们喜欢这种体验。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jasmine Lee",
+        "label": "活动组织者",
+        "description": "作为开发者，我不认为需要构建器，但 ShipFire 是免费的且功能强大。我用它验证了一个新的创业想法：从概念到上线 MVP 仅用了 4 小时。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "常见问题",
+    "description": "找不到问题的答案？请联系我们获取帮助。",
+    "buttons": [
+      {
+        "title": "联系我们",
+        "url": "/#contact",
+        "variant": "default"
+      }
+    ],
+    "items": [
+      {
+        "title": "ShipFire 免费吗？",
+        "description": "是的。ShipFire 提供永久免费计划，包括无限页面、用户管理、支付集成、分析等。无需信用卡，无隐藏费用。允许完全商业使用。"
+      },
+      {
+        "title": "ShipFire Online 支持哪些平台？",
+        "description": "支持自定义域名、Vercel、Netlify 和其他主要托管平台。提供免费的 *.shipfire.app 子域名用于测试。SSL 和 CDN 自动配置以实现全球性能。"
+      },
+      {
+        "title": "我可以在没有技术经验的情况下使用 ShipFire 吗？",
+        "description": "绝对可以。ShipFire 专为非技术用户设计，具有拖放编辑器、教程和提供实时指导的 AI 助手。数千名初学者已构建网站，平均学习时间不到 30 分钟。"
+      },
+      {
+        "title": "我可以将 ShipFire 网站用于商业目的吗？",
+        "description": "可以。使用 ShipFire 构建的网站完全可用于商业，包括销售产品、订阅和广告。没有许可限制或收入分成。"
+      },
+      {
+        "title": "我可以导出或迁移我的 ShipFire 网站吗？",
+        "description": "可以，您可以导出完整的网站代码，包括 HTML、CSS 和配置文件。您可以随时迁移到自己的服务器。用户和订单数据也可以导出为 CSV 以实现完全的数据所有权。"
+      },
+      {
+        "title": "ShipFire 的 AI 功能可以做什么？",
+        "description": "AI 助手优化文案，建议布局改进，分析用户行为，并预测转化瓶颈。它支持 SEO 优化、A/B 测试生成和电子邮件内容创建—基于 50,000+ 网站的数据训练，推荐准确率达 92%。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "今天就开始使用 ShipFire 构建",
+    "description": "无需信用卡。无需技术技能。3 分钟内构建专业网站。加入 50,000+ 全球开发者，触达全球用户。所有核心功能永久免费。",
+    "buttons": [
+      {
+        "title": "立即开始创建",
+        "icon": "RiGiftLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "ShipFire",
+      "description": "ShipFire 是一个面向全球独立开发者的 SaaS 网站构建平台。零代码，48 小时内发布产品，内置 AI 优化工具。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "ShipFire"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • ShipFire. 版权所有。",
+    "nav": {
+      "items": [
+        {
+          "title": "关于",
+          "url": "/about"
+        },
+        {
+          "title": "资源",
+          "url": "/#features"
+        },
+        {
+          "title": "朋友",
+          "url": "/#usage"
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@shipfire.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "badges": [
+      
+    ],
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "name": "shipfire",
+  "compatibility_date": "2025-01-10",
+  // enable_nodejs_http_modules: PayPal SDK 等依赖 https.request，需启用此标志
+  "compatibility_flags": ["nodejs_compat", "enable_nodejs_http_modules"],
+  "build": {
+    "command": "pnpm run cf:build"
+  },
+  // 由 OpenNext Cloudflare 生成
+  "main": ".open-next/worker.js",
+  // 静态资源目录（OpenNext 输出）
+  "assets": {
+    "directory": ".open-next/assets"
+  },
+  // 修复 OpenNext + esbuild keep_names 导致的 _name/__name 未定义错误（影响登录页等）
+  "keep_names": false,
+
+  // ========================================
+  // 环境变量配置（非敏感变量）
+  "vars": {
+    // ========== 1. 基础配置 ==========
+    // 网站公开 URL（用于生成链接、邮件等）
+    "NEXT_PUBLIC_WEB_URL": "https://shipstart.net",
+    // 项目名称（用于显示、邮件等）
+    "NEXT_PUBLIC_PROJECT_NAME": "shipstart",
+    // 默认主题（system/light/dark）
+    "NEXT_PUBLIC_DEFAULT_THEME": "system",
+    // 语言检测（true/false）
+    "NEXT_PUBLIC_LOCALE_DETECTION": "true",
+    // 管理员邮箱（多个用逗号分隔，用于访问后台管理）
+    "ADMIN_EMAILS": "banner520521@gmail.com",
+
+    // ========== 2. 认证配置 ==========
+    // NextAuth 认证 URL（开发环境: http://localhost:3000/api/auth）
+    "AUTH_URL": "https://shipstart.net/api/auth",
+    // 信任主机（生产环境设为true）
+    "AUTH_TRUST_HOST": "true",
+    // 是否启用认证（true/false）
+    "NEXT_PUBLIC_AUTH_ENABLED":"true",
+
+    // ========== 3. Google 登录配置 ==========
+    // Google OAuth 公开 Client ID（前端使用，用于 One Tap）
+    "NEXT_PUBLIC_AUTH_GOOGLE_ID": "35054272068-n921mlou3np1n37ncaoasdhe16o7sjsl.apps.googleusercontent.com",
+    "AUTH_GOOGLE_ID":"35054272068-n921mlou3np1n37ncaoasdhe16o7sjsl.apps.googleusercontent.com",
+    // 是否启用 Google 登录（true/false）
+    "NEXT_PUBLIC_AUTH_GOOGLE_ENABLED": "true",
+    // 是否启用 Google One Tap 登录（true/false）
+    "NEXT_PUBLIC_AUTH_GOOGLE_ONE_TAP_ENABLED": "true",
+
+    // ========== 4. GitHub 登录配置 ==========
+    // 是否启用 GitHub 登录（true/false）
+    "NEXT_PUBLIC_AUTH_GITHUB_ENABLED": "false",
+
+    // ========== 5. 支付配置 ==========
+    // 支付方式开关（优先级: Stripe > PayPal > Creem，至少启用一个）
+    "NEXT_PUBLIC_PAYMENT_STRIPE_ENABLED": "false",
+    
+    // Stripe 公开密钥（前端使用，pk_test_... 或 pk_live_...，敏感信息请用 Secrets）
+    "STRIPE_PUBLIC_KEY": "",
+    // 支付成功跳转 URL
+    "NEXT_PUBLIC_PAY_SUCCESS_URL": "/my-orders",
+    // 支付失败跳转 URL
+    "NEXT_PUBLIC_PAY_FAIL_URL": "/pricing",
+    // 支付取消跳转 URL
+    "NEXT_PUBLIC_PAY_CANCEL_URL": "/pricing",
+
+    // ========== 5.1 PayPal 支付配置 ==========
+    // 支付方式开关（优先级: Stripe > PayPal > Creem，至少启用一个）
+    "NEXT_PUBLIC_PAYMENT_PAYPAL_ENABLED": "true",
+    // PayPal 环境（sandbox=测试，live=生产；Client ID/Secret 请用 Secrets）
+    "PAYPAL_ENVIRONMENT": "live",
+
+    // ========== 6. Creem 支付配置 ==========
+    // 支付方式开关（优先级: Stripe > PayPal > Creem，至少启用一个）
+    "NEXT_PUBLIC_PAYMENT_CREEM_ENABLED": "true",
+    // Creem 测试模式（true=测试环境，false=生产环境）
+    "CREEM_TEST_MODE": "false",
+    // Creem API 地址（可选，默认: https://api.creem.io）
+    "CREEM_API_URL": "https://api.creem.io",
+    // Creem 产品 ID（6 套餐，从 Creem Dashboard 创建产品后获取 prod_xxx）
+    // --- 月付：入门版、标准版、高级版 ---
+    // Starter 入门版-月付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_STARTER_MONTHLY": "prod_1LXdXxSyRyUB0wAEctaixp",
+    // Standard 标准版-月付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_STANDARD_MONTHLY": "prod_6VYZJU7R1l9DlT3g6vduuF",
+    // Premium 高级版-月付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_PREMIUM_MONTHLY": "prod_2WcXEPQKzsGK16yWBuFN71",
+    // --- 年付：入门版、标准版、高级版 ---
+    // Starter 入门版-年付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_STARTER_YEARLY": "prod_2uN3KJeOyGN5Hw7J1YV6A8",
+    // Standard 标准版-年付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_STANDARD_YEARLY": "prod_1JCIlQHaHA5GwHvaOZIC51",
+    // Premium 高级版-年付
+    "NEXT_PUBLIC_CREEM_PRODUCT_ID_PREMIUM_YEARLY": "prod_4DNSPn2ZJmwDPinYvyGt9M",
+
+    // ========== 7. 积分系统配置 ==========
+    // 新用户注册时赠送的积分（默认: 20）
+    "NEW_USER_CREDITS": "20",
+    // 每次 AI 聊天消耗的积分（默认: 10）
+    "AI_CHAT_CREDIT_COST": "10",
+
+    // ========== 8. 邮件服务配置 ==========
+    // 发件人邮箱地址（可选，默认: noreply@shipfire.com）
+    "RESEND_FROM_EMAIL": "noreply@astrocarto.org",
+    // 支持邮箱地址（用于联系表单和用户反馈）
+    "NEXT_PUBLIC_SUPPORT_EMAIL": "support@astrocarto.org",
+
+    // ========== 9. 存储配置 - AWS S3 ==========
+    // S3 服务端点
+    "STORAGE_ENDPOINT": "",
+    // S3 区域
+    "STORAGE_REGION": "",
+    // S3 存储桶名称
+    "STORAGE_BUCKET": "",
+    // S3 公开访问域名
+    "STORAGE_DOMAIN": "",
+
+    // ========== 10. 存储配置 - Cloudflare R2 ==========
+    // R2 账户 ID
+    "R2_ACCOUNT_ID": "",
+    // R2 存储桶名称
+    "R2_BUCKET_NAME": "",
+    // R2 公开访问 URL
+    "R2_PUBLIC_URL": "",
+
+    // ========== 11. AI 服务配置 ==========
+    // SiliconFlow API 地址
+    "SILICONFLOW_BASE_URL": "",
+
+    // ========== 12. 分析统计配置 ==========
+    // Google Analytics ID
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "",
+    // OpenPanel Client ID
+    "NEXT_PUBLIC_OPENPANEL_CLIENT_ID": "",
+    // Plausible 域名
+    "NEXT_PUBLIC_PLAUSIBLE_DOMAIN": "",
+    // Plausible 脚本 URL
+    "NEXT_PUBLIC_PLAUSIBLE_SCRIPT_URL": "",
+
+    // ========== 13. 广告配置 ==========
+    // Google AdSense 广告代码
+    "NEXT_PUBLIC_GOOGLE_ADCODE": "",
+
+    // ========== 14. 社交媒体和联系方式配置 ==========
+    // Twitter/X 社交账号
+    "NEXT_PUBLIC_TWITTER_URL": "",
+    // GitHub 开源仓库
+    "NEXT_PUBLIC_GITHUB_URL": "",
+    // Discord 社区服务器
+    "NEXT_PUBLIC_DISCORD_URL": ""
+  },
+
+  // ========================================
+  // D1 数据库绑定
+  // 创建数据库：pnpm wrangler d1 create shipfire-db
+  // 将输出的 database_id 填入下方
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "shipfire-db",
+      "database_id": "ad72dedb-9c09-44ea-8798-f202789c9103"
+    }
+  ]
+}

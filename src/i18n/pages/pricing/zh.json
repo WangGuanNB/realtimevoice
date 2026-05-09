@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "选择您的方案",
+    "description": "获取 ShipAny 的所有功能，快速启动您的 AI SaaS 创业项目。",
+    "groups": [
+      {"name": "monthly", "title": "月度"},
+      {"name": "yearly", "title": "年度", "label": "省50%"}
+    ],
+    "items": [
+      {"title":"入门版","description":"开始您的第一个 SaaS 创业项目。","features_title":"包含","features":["100 积分，有效期 1 个月","NextJS 模板","SEO 友好结构","Stripe 支付","Supabase 数据存储","Google OAuth 和一键登录","国际化支持"],"interval":"one-time","amount":199,"cn_amount":1430,"currency":"USD","price":"$1.99","original_price":"$99","unit":"USD","is_featured":false,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"starter","creem_product_id":"starter","product_name":"ShipAny 模板入门版","credits":100,"valid_months":1,"group":"monthly"},
+      {"title":"标准版","description":"快速启动您的 SaaS 创业项目。","label":"热门","features_title":"包含入门版所有功能，另加","features":["200 积分，有效期 3 个月","Vercel 或 Cloudflare 部署","隐私和条款生成","Google Analytics 集成","Google Search Console 集成","Discord 社区","首次发布技术支持","终身更新"],"interval":"one-time","amount":599,"cn_amount":4310,"currency":"USD","price":"$5.99","original_price":"$299","unit":"USD","is_featured":true,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"standard","creem_product_id":"standard_monthly","product_name":"ShipAny 模板标准版","credits":200,"valid_months":3,"group":"monthly"},
+      {"title":"高级版","description":"构建任何 AI SaaS 创业项目。","features_title":"包含标准版所有功能，另加","features":["300 积分，有效期 1 年","AI 业务功能","用户中心","积分系统","SaaS API 销售","管理系统","优先技术支持"],"interval":"one-time","amount":1999,"cn_amount":14400,"currency":"USD","price":"$19.99","original_price":"$399","unit":"USD","is_featured":false,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"premium","creem_product_id":"premium_monthly","product_name":"ShipAny 模板高级版","credits":300,"valid_months":12,"group":"monthly"},
+      {"title":"入门版","description":"开始您的第一个 SaaS 创业项目。","features_title":"包含","features":["100 积分，有效期 1 年","NextJS 模板","SEO 友好结构","Stripe 支付","Supabase 数据存储","Google OAuth 和一键登录","国际化支持"],"interval":"one-time","amount":1200,"cn_amount":8640,"currency":"USD","price":"$12","original_price":"$99","unit":"USD","unit_note":"按年计费","is_featured":false,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"starter","creem_product_id":"starter_yearly","product_name":"ShipAny 模板入门版","credits":100,"valid_months":12,"group":"yearly"},
+      {"title":"标准版","description":"快速启动您的 SaaS 创业项目。","label":"热门","features_title":"包含入门版所有功能，另加","features":["200 积分，有效期 1 年","Vercel 或 Cloudflare 部署","隐私和条款生成","Google Analytics 集成","Google Search Console 集成","Discord 社区","首次发布技术支持","终身更新"],"interval":"one-time","amount":19900,"cn_amount":143300,"currency":"USD","price":"$199","original_price":"$299","unit":"USD","unit_note":"按年计费","is_featured":true,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"standard","creem_product_id":"standard_yearly","product_name":"ShipAny 模板标准版","credits":200,"valid_months":12,"group":"yearly"},
+      {"title":"高级版","description":"构建任何 AI SaaS 创业项目。","features_title":"包含标准版所有功能，另加","features":["300 积分，有效期 1 年","AI 业务功能","用户中心","积分系统","SaaS API 销售","管理系统","优先技术支持"],"interval":"one-time","amount":39999,"cn_amount":288000,"currency":"USD","price":"$399.99","original_price":"$499","unit":"USD","unit_note":"按年计费","is_featured":false,"tip":"","button":{"title":"升级","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"premium","creem_product_id":"premium_yearly","product_name":"ShipAny 模板高级版","credits":300,"valid_months":12,"group":"yearly"}
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "常见问题",
+    "description": "获取关于订阅和付费方案的常见问题答案。",
+    "items": [
+      {"title": "为什么选择付费版？", "description": "您的支持帮助我们持续维护和更新产品，同时您将获得：无水印输出、优先队列、更高生成速度、完全隐私保护、无广告体验等专属权益。"},
+      {"title": "可以升级或取消吗？", "description": "随时可以！您可以在账户设置页面一键升级或取消。订阅将延续到当前计费周期结束，无长期合同绑定。"},
+      {"title": "支持退款吗？", "description": "我们目前不支持退款。请在购买前确认方案详情。如有特殊情况，请联系 support@shipfire.app 咨询。"},
+      {"title": "付费版图片质量更高吗？", "description": "是的。标准版和高级版解锁更多功能与权益，包括优先队列、无水印输出、商业使用授权等，助您更高效地完成项目。"},
+      {"title": "订阅包含 API 访问吗？", "description": "当前版本暂不提供公开 API。我们计划在未来推出，欢迎通过 support@shipfire.app 告知您的具体需求。"},
+      {"title": "如何获取技术支持？", "description": "您可以通过 support@shipfire.app 联系我们。付费用户享有优先技术支持，我们会尽快回复您的问题。"}
+    ]
+  }
+}

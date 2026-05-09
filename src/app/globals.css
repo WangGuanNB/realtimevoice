@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+@plugin "tailwindcss-animate";
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 md:px-8;
+}
+
+input,
+select,
+textarea {
+  @apply border-border outline-ring/50 bg-background;
+}
+
+button {
+  @apply cursor-pointer border-border outline-ring/50;
+}
+
+pre {
+  @apply px-4;
+}
+
+/* ShipAny 风格动态背景动画 - 更明显版本 */
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(50px, -60px) scale(1.2);
+  }
+  50% {
+    transform: translate(-60px, 50px) scale(0.8);
+  }
+  75% {
+    transform: translate(60px, 60px) scale(1.1);
+  }
+}
+
+@layer utilities {
+  .animate-blob {
+    animation: blob 7s ease-in-out infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .animation-delay-6000 {
+    animation-delay: 1s;
+  }
+
+  @keyframes retro-grid {
+    0% {
+      transform: translateY(-50%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animate-grid {
+    animation: retro-grid 15s linear infinite;
+  }
+}

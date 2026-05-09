@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "Free AI Image Generator | Create Stunning Images from Text Online",
+    "description": "Create stunning images in seconds with our free AI image generator. No design skills needed. Type a description, choose a style, and generate professional visuals for social media, blogs, and marketing.",
+    "keywords": ["image generator", "AI image generator", "free image generator", "text to image generator", "create images from text", "online image generator"]
+  },
+  "hero": {
+    "variant": "tool",
+    "title": "Free AI Image Generator – Create Stunning Images from Text",
+    "highlight_text": "in Seconds",
+    "description": "Turn your ideas into visuals instantly. Our free image generator uses AI to create professional images from simple text descriptions—no design experience required.",
+    "buttons": [
+      {
+        "title": "Try Image Generator Free",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ],
+    "metrics": ["FREE", "No signup required"],
+    "show_badge": false
+  },
+  "tool": {
+    "title": "Create Your Image Now",
+    "description": "Describe what you want to see. Our AI image generator turns your words into beautiful visuals.",
+    "promptPlaceholder": "e.g., A serene mountain landscape at sunset with golden light",
+    "styleLabel": "Art Style",
+    "styles": [
+      { "value": "realistic", "label": "Realistic" },
+      { "value": "illustration", "label": "Illustration" },
+      { "value": "artistic", "label": "Artistic" },
+      { "value": "minimal", "label": "Minimal" }
+    ],
+    "buttonText": "Generate Image",
+    "generatingText": "Creating your image..."
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What Is an AI Image Generator?",
+    "label": "OVERVIEW",
+    "description": "An AI image generator turns your text into visuals in seconds—no design skills required.",
+    "items": [
+      {
+        "title": "Text-to-Image in Seconds",
+        "description": "Our image generator converts your text prompts into high-quality images. Whether you need social media graphics, blog illustrations, or marketing visuals, simply describe what you want and let the AI do the work. No Photoshop, no stock photo subscriptions—just type and create.",
+        "icon": "RiMagicLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "AI Image Generator - text to image creation"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "Multiple Art Styles",
+        "description": "Choose from realistic, illustrated, artistic, or minimal styles. One prompt can yield completely different looks to match your brand or project needs. Whether you need photorealistic product shots, whimsical illustrations for a children's book, or minimalist icons for a presentation, our free image generator adapts to your creative vision with a single click.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "/imgs/features/2.webp",
+          "alt": "AI Image Generator - multiple art styles"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "High-Resolution Export",
+        "description": "Download images suitable for web, print, and social media. Our image generator delivers crisp, high-resolution results for professional use—no watermarks, no size limits on the free tier. Use your creations for Instagram posts, blog headers, product packaging mockups, or even large-format prints without worrying about pixelation.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "AI Image Generator - high-resolution export"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "No Design Skills Required",
+        "description": "Anyone can use our free image generator. If you can describe an idea in words, you can create a visual—no tutorials, no design background, no Photoshop expertise needed. Perfect for marketers who need quick social graphics, content creators building their brand, and small businesses that want professional visuals without hiring a designer.",
+        "icon": "RiUserLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "AI Image Generator - easy to use"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "label": "FEATURES",
+    "title": "Key Features of Our Image Generator",
+    "description": "Everything you need to create professional images quickly and easily.",
+    "items": [
+      {
+        "title": "Text-to-Image in Seconds",
+        "description": "Type a description and get a finished image in under 30 seconds. Our image generator understands natural language and produces relevant, high-quality visuals.",
+        "icon": "RiZapLine"
+      },
+      {
+        "title": "Multiple Art Styles",
+        "description": "Choose from realistic, illustrated, artistic, or minimal styles. One prompt can yield different looks to match your brand or project needs.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "High-Resolution Export",
+        "description": "Download images suitable for web, print, and social media. Our image generator delivers crisp results for professional use.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "No Design Skills Required",
+        "description": "Anyone can use our free image generator. If you can describe an idea in words, you can create a visual—no tutorials or design background needed.",
+        "icon": "RiUserLine"
+      },
+      {
+        "title": "Free & No Signup",
+        "description": "Use our image generator without creating an account. Start creating in seconds with zero barriers—no credit card, no email required.",
+        "icon": "RiGiftLine"
+      },
+      {
+        "title": "Commercial Use Allowed",
+        "description": "Generated images are yours to use for marketing, social media, and products. No watermarks or usage restrictions—create with confidence.",
+        "icon": "RiShieldLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose Our Free Image Generator?",
+    "label": "CORE BENEFITS",
+    "description": "Stand out with an image generator built for speed, quality, and ease of use.",
+    "items": [
+      {
+        "title": "100% Free to Use",
+        "description": "Our image generator is completely free with no hidden fees. No credit card, no subscription, no daily limits—create as many images as you need without paying a cent. Unlike paid tools that charge $10–50/month for similar features, you get professional-grade text-to-image generation at zero cost. Perfect for testing ideas, small projects, bloggers, and marketers who need visuals without the budget.",
+        "icon": "RiGiftLine",
+        "image": { "src": "/imgs/features/1.webp", "alt": "Free image generator interface" },
+        "buttons": [
+          { "title": "Start Creating", "url": "/#generator", "variant": "default" }
+        ]
+      },
+      {
+        "title": "Create Images from Text Instantly",
+        "description": "Other tools require learning complex prompt formulas or waiting in queues. Our image generator gives you results in seconds—type a simple description and get a finished image. No steep learning curve, no hours of experimentation. Whether you need social media graphics, blog illustrations, or product mockups, describe it and get it. That simple.",
+        "icon": "RiSpeedLine",
+        "image": { "src": "/imgs/features/2.webp", "alt": "Fast text to image generation" },
+        "buttons": [
+          { "title": "Start Creating", "url": "/#generator", "variant": "default" }
+        ]
+      },
+      {
+        "title": "Privacy-First",
+        "description": "Your prompts and generated images stay private. We don't train on your content, sell your data, or share it with third parties. Create with complete confidence—whether for personal projects or sensitive business visuals. Our secure image generator processes your requests without storing or repurposing your ideas.",
+        "icon": "RiShieldLine",
+        "image": { "src": "/imgs/features/3.webp", "alt": "Secure AI image generator" },
+        "buttons": [
+          { "title": "Start Creating", "url": "/#generator", "variant": "default" }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "label": "HOW TO USE",
+    "title": "How to Use the Image Generator",
+    "description": "Create your first image in three simple steps.",
+    "items": [
+      {
+        "title": "Describe Your Image",
+        "description": "Type a clear description of what you want. Be specific: include colors, composition, mood, and style. The better your prompt, the better the result from our image generator.",
+        "icon": "RiEditLine"
+      },
+      {
+        "title": "Choose a Style",
+        "description": "Select an art style that fits your project—realistic for photos, illustration for branding, artistic for creative work. Our image generator adapts to your choice.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Generate and Download",
+        "description": "Click Generate and wait a few seconds. Review your image, make adjustments if needed, and download when you're satisfied. That's how easy our free image generator is.",
+        "icon": "RiDownloadLine"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "TESTIMONIALS",
+    "title": "What Users Say About Our Image Generator",
+    "description": "See how creators use our free image generator for their projects.",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Sarah M.",
+        "label": "Content Creator",
+        "description": "I needed blog images fast. This image generator saved me hours. I type what I want, get a great visual, and move on. No stock photo hunting anymore.",
+        "image": { "src": "/imgs/users/1.png" }
+      },
+      {
+        "title": "James K.",
+        "label": "Marketing Manager",
+        "description": "We use this AI image generator for social posts and ads. It's free, quick, and the quality holds up. Game changer for our small team.",
+        "image": { "src": "/imgs/users/2.png" }
+      },
+      {
+        "title": "Lisa T.",
+        "label": "Small Business Owner",
+        "description": "I have zero design skills. This free image generator lets me create product visuals and promotional graphics myself. Simple and effective.",
+        "image": { "src": "/imgs/users/3.png" }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Common questions about our free AI image generator.",
+    "items": [
+      {
+        "title": "Is this image generator really free?",
+        "description": "Yes. Our image generator is completely free to use with no signup or credit card required. You can create images from text as often as you need without paying a cent. Unlike many tools that offer only a few free credits before asking for payment, we believe everyone should have access to AI-powered image creation. Perfect for trying out the tool, testing ideas, or producing visuals for personal and small business projects."
+      },
+      {
+        "title": "How does the AI image generator work?",
+        "description": "You simply enter a text description of the image you want—a scene, a character, a product, or any visual idea. Our image generator uses advanced AI to interpret your prompt and create a matching visual in seconds. The more specific your description, the better the result. You can also choose an art style (realistic, illustration, artistic, or minimal) to fine-tune the output. No technical knowledge or prompt engineering required."
+      },
+      {
+        "title": "Can I use generated images commercially?",
+        "description": "Generated images from our free image generator are cleared for both personal and commercial use. You can use them for social media posts, blog graphics, marketing materials, product mockups, and more. We do not add watermarks or restrict how you use your creations. For complete licensing terms and any edge cases, please refer to our full terms of service."
+      },
+      {
+        "title": "Do I need design experience to use the image generator?",
+        "description": "No design experience is needed. Our image generator is built for everyone—marketers, bloggers, small business owners, and anyone who needs visuals. Just describe your idea in plain English and the AI creates the image for you. No Photoshop, no design courses, no learning curve. If you can type a sentence, you can create a professional-looking image."
+      },
+      {
+        "title": "What's the difference between this and other image generators?",
+        "description": "Our image generator stands out for being free, fast, and easy. No account or signup needed to start creating. While other tools often require complex prompt syntax or have long wait times, we focus on simplicity—just type what you want and get results in seconds. No learning curve, no subscription tiers, and no hidden fees. We prioritize accessibility so anyone can create images from text."
+      },
+      {
+        "title": "What image formats can I download?",
+        "description": "Our image generator supports common image formats suitable for web, print, and social media. You can download your creations in high resolution, so they look crisp on screens and in print. Whether you need images for Instagram, a blog header, a presentation slide, or product packaging, the exported files are ready to use across platforms and projects without quality loss."
+      },
+      {
+        "title": "How many images can I generate for free?",
+        "description": "Our free tier lets you create images as often as you need. There are no daily caps, no monthly limits, and no hidden restrictions. Generate as many visuals as your projects require—whether that's a handful for a blog post or dozens for a marketing campaign. We want you to focus on creating, not counting credits."
+      },
+      {
+        "title": "Is my prompt data kept private?",
+        "description": "Yes. We do not store your prompts or use them to train AI models. Your ideas, descriptions, and generated images remain private and secure when you use our image generator. We do not sell or share your data with third parties. You can create freely, including for sensitive or confidential projects, with confidence that your content stays yours."
+      },
+      {
+        "title": "Can I use the image generator on mobile?",
+        "description": "Yes. Our image generator works on any device with a web browser—desktop, tablet, or phone. The interface is responsive and optimized for touch screens, so you can create images from text wherever you are. Whether you're at your desk, on the go, or brainstorming from your phone, the same powerful AI image generation is just a few taps away."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Create Your First Image Free",
+    "description": "No signup. No credit card. Just type a description and let our image generator do the rest. Try it now.",
+    "buttons": [
+      {
+        "title": "Generate Image Now",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  }
+}

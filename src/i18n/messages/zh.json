@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "title": "ShipStart - 3 分钟内构建您的 SaaS 网站",
+    "description": "专为全球独立开发者设计的免费网站构建器。零代码，48 小时内发布产品，内置 AI 优化工具。ShipStart 帮助您的产品快速触达全球用户。",
+    "keywords": "ShipStart, SaaS 网站构建器, 网站构建器, 独立开发者工具, 无代码网站构建器, AI 网站构建器, 全球网站构建器, 免费网站构建器"
+  },
+  "user": {
+    "sign_in": "登录",
+    "sign_out": "退出登录",
+    "credits": "额度",
+    "api_keys": "API 密钥",
+    "my_orders": "我的订单",
+    "user_center": "用户中心",
+    "admin_system": "管理后台"
+  },
+  "sign_modal": {
+    "sign_in_title": "登录",
+    "sign_in_description": "登录您的账户",
+    "sign_up_title": "注册",
+    "sign_up_description": "创建新账户",
+    "email_title": "邮箱",
+    "email_placeholder": "请输入您的邮箱",
+    "password_title": "密码",
+    "password_placeholder": "请输入您的密码",
+    "forgot_password": "忘记密码？",
+    "or": "或",
+    "continue": "继续",
+    "no_account": "还没有账户？",
+    "email_sign_in": "使用邮箱登录",
+    "google_sign_in": "使用 Google 登录",
+    "github_sign_in": "使用 GitHub 登录",
+    "close_title": "关闭",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的订单",
+    "description": "在 ShipStart 上的订单记录。",
+    "no_orders": "未找到订单",
+    "tip": "",
+    "activate_order": "激活订单",
+    "actived": "已激活",
+    "join_discord": "加入 Discord",
+    "read_docs": "阅读文档",
+    "table": {
+      "order_no": "订单号",
+      "email": "邮箱",
+      "product_name": "产品名称",
+      "amount": "金额",
+      "paid_at": "支付时间",
+      "github_username": "GitHub 用户名",
+      "status": "状态"
+    }
+  },
+  "my_credits": {
+    "title": "我的积分",
+    "left_tip": "剩余积分: {left_credits}",
+    "no_credits": "没有积分记录",
+    "recharge": "充值",
+    "table": {
+      "trans_no": "交易号",
+      "trans_type": "交易类型",
+      "credits": "积分",
+      "updated_at": "更新时间",
+      "status": "状态"
+    }
+  },
+  "api_keys": {
+    "title": "API 密钥",
+    "tip": "请妥善保管您的 API 密钥，避免泄露",
+    "no_api_keys": "没有 API 密钥",
+    "create_api_key": "创建 API 密钥",
+    "table": {
+      "name": "名称",
+      "key": "密钥",
+      "created_at": "创建时间"
+    },
+    "form": {
+      "name": "名称",
+      "name_placeholder": "API 密钥名称",
+      "submit": "提交"
+    }
+  },
+  "blog": {
+    "title": "博客",
+    "description": "最新文章、教程与产品更新",
+    "no_posts": "暂无文章，敬请期待",
+    "read_more_text": "阅读更多",
+    "tools_notice": {
+      "text": "寻找实用工具？除了这些教程，还可以在我们的",
+      "link_text": "ShipStart 主页",
+      "suffix": "探索完整的网站构建工具套件，实现即时网站创建和高级功能。"
+    }
+  },
+  "my_invites": {
+    "title": "我的邀请",
+    "description": "查看您的邀请记录",
+    "no_invites": "未找到邀请记录",
+    "my_invite_link": "我的邀请链接",
+    "edit_invite_link": "编辑邀请链接",
+    "copy_invite_link": "复制邀请链接",
+    "invite_code": "邀请码",
+    "invite_tip": "邀请朋友使用 ShipStart，共同构建网站。",
+    "invite_balance": "邀请奖励余额",
+    "total_invite_count": "总邀请人数",
+    "total_paid_count": "已充值人数",
+    "total_award_amount": "总奖励金额",
+    "update_invite_code": "设置邀请码",
+    "update_invite_code_tip": "输入你的自定义邀请码",
+    "update_invite_button": "保存",
+    "no_orders": "你需要先使用过 ShipStart 才能邀请朋友",
+    "no_affiliates": "你暂无邀请朋友的权限，请联系我们申请开通。",
+    "table": {
+      "invite_time": "邀请时间",
+      "invite_user": "邀请用户",
+      "status": "状态",
+      "reward_percent": "奖励比例",
+      "reward_amount": "奖励金额",
+      "pending": "已注册，未支付",
+      "completed": "已支付"
+    }
+  },
+  "feedback": {
+    "title": "反馈",
+    "description": "我们很乐意听取您对产品的看法或如何改进产品体验。",
+    "submit": "提交",
+    "loading": "提交中...",
+    "contact_tip": "其他联系方式",
+    "rating_tip": "您对 {project} 的看法如何？",
+    "placeholder": "在这里留下您的反馈..."
+  },
+  "share": {
+    "title": "分享这个网站",
+    "text": "我刚在 ShipStart 免费构建了这个网站！你也来试试：",
+    "preparing": "准备分享中...",
+    "success": "链接已复制到剪贴板！",
+    "failed": "复制链接失败",
+    "uploading": "正在准备网站分享...",
+    "platforms": {
+      "twitter": "Twitter",
+      "facebook": "Facebook", 
+      "linkedin": "LinkedIn",
+      "pinterest": "Pinterest",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "reddit": "Reddit",
+      "copy": "复制"
+    }
+  } ,
+  "websiteBuilder": {
+    "ui": {
+      "title": "使用 ShipStart 构建您的 SaaS 网站",
+      "subtitle": "零代码，48 小时内发布产品"
+    },
+    "upload": {
+      "title": "选择您的模板",
+      "subtitle": "从我们的专业网站模板中选择",
+      "dragDrop": "浏览我们多样化的模板集合",
+      "fileInfo": "SaaS 模板 • 落地页 • 产品页 • 更多"
+    },
+    "instructions": {
+      "title": "输入您的产品详情",
+      "subtitle": "描述您的产品并自定义您的网站",
+      "translate": "翻译",
+      "autoTranslateEnabled": "已启用自动翻译"
+    },
+    "usage": {
+      "remaining": "剩余免费网站构建次数：{remaining}/3",
+      "signInTip": "登录获取无限网站创建次数！",
+      "limitReached": "已达到每日限制（已使用 3/3 次免费构建）",
+      "signInUnlimited": "登录获取无限访问权限或明天再试！"
+    },
+    "buttons": {
+      "generate": "构建网站",
+      "generating": "正在创建您的网站...",
+      "limitReached": "已达到每日限制 - 请登录",
+      "download": "下载网站",
+      "regenerate": "尝试其他模板"
+    },
+    "result": {
+      "title": "准备构建",
+      "subtitle": "输入您的产品详情，见证魔法发生",
+      "readyTitle": "您的免费网站构建器等待中",
+      "readySubtitle": "描述您的产品并从多样化的模板中选择。几分钟内创建专业网站。",
+      "willAppear": "您的自定义网站将显示在这里",
+      "creating": "正在创建您的网站...",
+      "almostDone": "即将完成！您的网站正在成型",
+      "takeFewMoments": "这可能需要几分钟时间"
+    },
+    "messages": {
+      "uploadValidImage": "请选择有效的模板",
+      "imageTooLarge": "内容过长，请保持简洁",
+      "uploadSuccess": "模板选择成功",
+      "uploadRequired": "请输入您的产品详情",
+      "instructionsRequired": "请选择网站模板",
+      "limitExceeded": "已超过每日限制！请登录获取无限网站创建权限或明天再试。",
+      "websiteGeneratedSuccess": "网站创建成功！",
+      "generateFailed": "生成网站失败。请重试。",
+      "downloadSuccess": "网站下载成功！",
+      "downloadFailed": "下载网站失败"
+    }
+  },
+  "payment": {
+    "modal": {
+      "title": "选择您的套餐",
+      "description": "升级到付费套餐，解锁更多网站模板和功能",
+      "most_popular": "最受欢迎",
+      "credits": "积分",
+      "month": "月",
+      "year": "年",
+      "processing": "处理中...",
+      "select_plan": "选择此套餐",
+      "international_payment": "国际支付",
+      "china_payment": "支付宝/微信支付",
+      "stripe_payment": "Stripe 支付",
+      "creem_payment": "Creem 支付"
+    },
+    "test": {
+      "basic": {
+        "title": "基础套餐",
+        "description": "100 积分",
+        "feature1": "100 次网站构建",
+        "feature2": "标准处理速度",
+        "feature3": "邮件支持"
+      },
+      "pro": {
+        "title": "专业套餐",
+        "description": "500 积分",
+        "feature1": "500 次网站构建",
+        "feature2": "优先处理速度",
+        "feature3": "24/7 技术支持",
+        "feature4": "高清输出"
+      },
+      "enterprise": {
+        "title": "企业套餐",
+        "description": "2000 积分",
+        "feature1": "2000 次网站构建",
+        "feature2": "最快处理速度",
+        "feature3": "专属客服",
+        "feature4": "API 访问",
+        "feature5": "批量处理"
+      },
+      "test_title": "支付弹窗测试",
+      "open_default": "打开支付弹窗 (默认配置)",
+      "open_custom": "打开支付弹窗 (自定义配置)",
+      "default_description": "使用翻译配置的标题和描述",
+      "custom_description": "模拟积分不足时的支付场景",
+      "instructions_title": "测试说明",
+      "instruction1": "桌面端显示为 Dialog 弹窗",
+      "instruction2": "移动端显示为 Drawer 抽屉",
+      "instruction3": "支持多语言切换",
+      "instruction4": "包含国际支付和中国支付选项",
+      "instruction5": "需要登录才能进行支付",
+      "success_message": "支付成功！积分已到账",
+      "insufficient_title": "积分不足",
+      "insufficient_description": "您的积分不足，请升级套餐继续使用网站构建功能",
+      "upgrade_success": "升级成功！功能已解锁"
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "免费 AI 图片生成器 | 在线文字转图片",
+    "description": "用我们的免费 AI 图片生成器秒速创建精美图片。无需设计基础，输入描述即可生成适用于社交媒体、博客和营销的专业视觉素材。",
+    "keywords": ["图片生成器", "AI 图片生成器", "免费图片生成", "文字转图片", "在线图片生成"]
+  },
+  "hero": {
+    "variant": "tool",
+    "title": "免费 AI 图片生成器 – 将文字变成精美图片",
+    "highlight_text": "几秒内",
+    "description": "将创意瞬间变成视觉。我们的免费图片生成器用 AI 根据文字描述生成专业图片——无需设计经验。",
+    "buttons": [
+      {
+        "title": "免费试用图片生成器",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ],
+    "metrics": ["完全免费", "无需注册"],
+    "show_badge": false
+  },
+  "tool": {
+    "title": "立即创建你的图片",
+    "description": "描述你想要的效果，AI 图片生成器会将文字转化为精美视觉。",
+    "promptPlaceholder": "例如：日落时分的宁静山景，金色光线洒落",
+    "styleLabel": "艺术风格",
+    "styles": [
+      { "value": "realistic", "label": "写实" },
+      { "value": "illustration", "label": "插画" },
+      { "value": "artistic", "label": "艺术" },
+      { "value": "minimal", "label": "极简" }
+    ],
+    "buttonText": "生成图片",
+    "generatingText": "正在生成你的图片..."
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 AI 图片生成器？",
+    "label": "概述",
+    "description": "AI 图片生成器将文字在几秒内变成视觉——无需设计技能。",
+    "items": [
+      {
+        "title": "秒级文字转图片",
+        "description": "我们的图片生成器将文字描述转化为高清图片。无论是社交媒体配图、博客插图还是营销视觉，只需描述需求，AI 来完成创作。无需 Photoshop、无需图库订阅——输入即生成。",
+        "icon": "RiMagicLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "AI 图片生成器 - 文字转图片"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "多种艺术风格",
+        "description": "可选写实、插画、艺术或极简风格。同一描述可生成完全不同的视觉效果，适配品牌或项目需求。无论是写实产品图、童书插画还是极简演示图标，我们的免费图片生成器一键随你的创意自由切换。",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "/imgs/features/2.webp",
+          "alt": "AI 图片生成器 - 多种艺术风格"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "高清导出",
+        "description": "下载适用于网页、印刷和社交媒体的高清图片。我们的图片生成器输出清晰、专业的作品——无水印，免费版无尺寸限制。可用于 Instagram 配图、博客头图、产品包装 mockup 甚至大幅印刷，无需担心模糊。",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "AI 图片生成器 - 高清导出"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "无需设计基础",
+        "description": "任何人都能使用我们的免费图片生成器。只要能用文字描述想法，就能创作视觉——无需教程、设计背景或 Photoshop 经验。适合需要快速社交配图的营销人员、打造个人品牌的内容创作者，以及不想请设计师的小企业。",
+        "icon": "RiUserLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "AI 图片生成器 - 简单易用"
+        },
+        "buttons": [
+          {
+            "title": "开始创作",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "label": "核心功能",
+    "title": "图片生成器核心功能",
+    "description": "快速、轻松创建专业图片所需的一切。",
+    "items": [
+      {
+        "title": "秒级文字转图片",
+        "description": "输入描述，30 秒内获得成品图。我们的图片生成器理解自然语言，输出相关且高质量的视觉。",
+        "icon": "RiZapLine"
+      },
+      {
+        "title": "多种艺术风格",
+        "description": "可选写实、插画、艺术或极简风格。同一描述可生成不同风格，适配品牌或项目需求。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "高清导出",
+        "description": "下载适用于网页、印刷和社交媒体的图片。我们的图片生成器输出清晰、专业的作品。",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "无需设计基础",
+        "description": "任何人都能使用我们的免费图片生成器。只要能用文字描述想法，就能创作视觉——无需教程或设计背景。",
+        "icon": "RiUserLine"
+      },
+      {
+        "title": "免费无需注册",
+        "description": "无需注册即可使用我们的图片生成器。零门槛，几秒开始创作——无需信用卡、无需邮箱。",
+        "icon": "RiGiftLine"
+      },
+      {
+        "title": "可商用",
+        "description": "生成的图片可用于营销、社交媒体和产品。无水印、无使用限制——放心创作。",
+        "icon": "RiShieldLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么选择我们的免费图片生成器？",
+    "label": "核心优势",
+    "description": "以速度、质量和易用性打造，让你的图片脱颖而出。",
+    "items": [
+      {
+        "title": "完全免费",
+        "description": "我们的图片生成器完全免费，无隐藏费用。无需信用卡、无需订阅、无每日限制——按需创作，不花一分钱。相比按月付费 10–50 美元的其他工具，你在这里获得专业级文字转图片能力，成本为零。适合验证创意、小型项目、博客作者和营销人员。",
+        "icon": "RiGiftLine",
+        "image": { "src": "/imgs/features/1.webp", "alt": "免费图片生成器界面" },
+        "buttons": [
+          { "title": "开始创作", "url": "/#generator", "variant": "default" }
+        ]
+      },
+      {
+        "title": "文字即时转图片",
+        "description": "其他工具需要学复杂提示词公式或排队等待。我们的图片生成器几秒出图——输入简单描述即可得到成品。无需陡峭学习曲线，无需反复试错。无论是社交媒体配图、博客插图还是产品 mockup，描述即生成。就这么简单。",
+        "icon": "RiSpeedLine",
+        "image": { "src": "/imgs/features/2.webp", "alt": "快速文字转图片" },
+        "buttons": [
+          { "title": "开始创作", "url": "/#generator", "variant": "default" }
+        ]
+      },
+      {
+        "title": "隐私优先",
+        "description": "你的提示词和生成的图片保持私密。我们不会用你的内容训练模型，也不会出售或分享给第三方。无论是个人项目还是敏感商业视觉，都可以放心创作。我们的安全图片生成器处理你的请求时不会存储或二次利用你的创意。",
+        "icon": "RiShieldLine",
+        "image": { "src": "/imgs/features/3.webp", "alt": "安全 AI 图片生成器" },
+        "buttons": [
+          { "title": "开始创作", "url": "/#generator", "variant": "default" }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "label": "使用方法",
+    "title": "如何使用图片生成器",
+    "description": "三步创建你的第一张图片。",
+    "items": [
+      {
+        "title": "描述你的图片",
+        "description": "输入清晰描述，包含颜色、构图、氛围和风格。描述越具体，我们的图片生成器输出越精准。",
+        "icon": "RiEditLine"
+      },
+      {
+        "title": "选择风格",
+        "description": "选择适合项目的艺术风格——写实适合照片感、插画适合品牌、艺术适合创意作品。图片生成器会按你的选择调整。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "生成并下载",
+        "description": "点击生成，等待几秒。预览图片，如需可微调后再次生成，满意后下载。我们的免费图片生成器就是这么简单。",
+        "icon": "RiDownloadLine"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "用户如何评价我们的图片生成器",
+    "description": "看看创作者如何用我们的免费图片生成器完成项目。",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Sarah M.",
+        "label": "内容创作者",
+        "description": "我急需博客配图。这个图片生成器省了我很多时间。输入想要的效果，就能得到合适的视觉，再也不用到处找图了。",
+        "image": { "src": "/imgs/users/1.png" }
+      },
+      {
+        "title": "James K.",
+        "label": "市场经理",
+        "description": "我们用这个 AI 图片生成器做社交帖和广告。免费、快速，质量也不错。对我们小团队来说是变革性的。",
+        "image": { "src": "/imgs/users/2.png" }
+      },
+      {
+        "title": "Lisa T.",
+        "label": "小企业主",
+        "description": "我完全不会设计。这个免费图片生成器让我自己搞定产品图和推广图。简单又好用。",
+        "image": { "src": "/imgs/users/3.png" }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题",
+    "description": "关于我们免费 AI 图片生成器的常见问题。",
+    "items": [
+      {
+        "title": "这个图片生成器真的免费吗？",
+        "description": "是的。我们的图片生成器完全免费使用，无需注册或信用卡。你可以随时用文字生成图片，无需支付任何费用。与很多只给少量免费额度就要求付费的工具不同，我们相信每个人都应能使用 AI 图片创作。适合试用、验证创意，或个人和小型商业项目。"
+      },
+      {
+        "title": "AI 图片生成器如何工作？",
+        "description": "你只需输入想要的图片的文字描述——可以是场景、角色、产品或任何视觉创意。我们的图片生成器用先进 AI 理解你的提示，几秒内生成对应视觉。描述越具体，效果越好。你还可以选择艺术风格（写实、插画、艺术或极简）来微调输出。无需技术知识或提示词工程。"
+      },
+      {
+        "title": "生成的图片可以商用吗？",
+        "description": "我们免费图片生成器生成的图片可用于个人和商业用途。你可用于社交媒体帖子、博客配图、营销素材、产品 mockup 等。我们不会添加水印，也不限制你对作品的使用方式。完整授权条款及特殊情况请参阅我们的服务条款。"
+      },
+      {
+        "title": "使用图片生成器需要设计经验吗？",
+        "description": "不需要任何设计经验。我们的图片生成器面向所有人——营销人员、博客作者、小企业主，以及任何需要视觉素材的人。只需用日常语言描述想法，AI 会为你生成图片。无需 Photoshop、设计课程或学习曲线。只要会打字，就能做出专业感的图片。"
+      },
+      {
+        "title": "和别的图片生成器有什么区别？",
+        "description": "我们的图片生成器以免费、快速、易用著称。无需注册或登录即可开始创作。其他工具往往需要复杂提示词语法或排队很久，我们则专注于简单——输入想要的效果，几秒内出图。没有学习曲线、没有订阅档位、没有隐藏费用。我们优先考虑易用性，让任何人都能用文字创作图片。"
+      },
+      {
+        "title": "支持哪些图片格式下载？",
+        "description": "我们的图片生成器支持适用于网页、印刷和社交媒体的常用格式。你可下载高清分辨率作品，在屏幕和印刷品上都清晰锐利。无论是 Instagram 配图、博客头图、演示幻灯片还是产品包装，导出的文件可直接用于各平台和项目，且保持画质。"
+      },
+      {
+        "title": "免费可以生成多少张图片？",
+        "description": "免费版可按需创作，无每日上限、无月度限制、无隐藏规则。根据项目需要生成任意数量图片——无论是几张博客配图还是几十张营销素材。我们希望你专注创作，而不是数着积分担心额度。"
+      },
+      {
+        "title": "我的提示词会被保留吗？",
+        "description": "不会。我们不会存储你的提示词，也不会用它们训练 AI 模型。使用我们的图片生成器时，你的创意、描述和生成的图片都保持私密与安全。我们不会出售或与第三方共享你的数据。你可以放心创作，包括敏感或机密项目，你的内容始终属于你。"
+      },
+      {
+        "title": "能在手机上使用图片生成器吗？",
+        "description": "可以。我们的图片生成器在任意带网页浏览器的设备上都能用——电脑、平板或手机。界面做了响应式与触屏优化，让你随时随地用文字生成图片。无论是在桌前、路上还是用手机脑暴，同样的 AI 图片生成能力只需几步即可使用。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "免费创建你的第一张图片",
+    "description": "无需注册。无需信用卡。只需输入描述，让我们的图片生成器完成其余。立即试试。",
+    "buttons": [
+      {
+        "title": "立即生成图片",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  }
+}

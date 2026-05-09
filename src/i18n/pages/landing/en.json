@@ -1,0 +1,566 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "ShipStart",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "ShipFire"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Home",
+          "url": "/",
+          "icon": "RiHomeLine"
+        },
+        {
+          "title": "Image Generator",
+          "url": "/image-generator",
+          "icon": "RiImageLine"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "RiPriceTag3Line"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "icon": "RiArticleLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "ShipStart: Build Your SaaS Website in 3 Minutes",
+    "highlight_text": "Lightning Fast",
+    "description": "A free website builder designed for global indie developers. Launch your product in 48 hours with zero code and built-in AI optimization tools.",
+    "announcement": {
+      "label": "Limited Time",
+      "title": "Free Forever",
+      "url": "/#features"
+    },
+    "images": [
+      {
+        "src": "/imgs/features/1.webp",
+        "alt": "ShipFire Website Builder Example 1",
+        "title": "Build Your SaaS Website"
+      },
+      {
+        "src": "/imgs/features/1.webp",
+        "alt": "ShipStart Website Templates Example 2",
+        "title": "50+ Professional Templates"
+      }
+    ],
+    "layout": "left-image-right-content",
+    "variant": "compact",
+    "enable_carousel": true,
+    "buttons": [
+      {
+        "title": "Build Saas Free Now",
+        "icon": "RiMagicLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "Explore Features",
+        "url": "/#feature",
+        "target": "_self",
+        "variant": "secondary"
+      }
+    ],
+    "metrics": [
+      "FREE",
+      "Trusted by 50,000+ developers"
+    ],
+    "stats": [
+      {
+        "value": "50,000+",
+        "label": "Active Developers",
+        "icon": "RiUserLine"
+      },
+      {
+        "value": "200,000+",
+        "label": "Websites Built",
+        "icon": "RiImageLine"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "Powered by cutting-edge AI technology",
+    "items": [
+      {
+        "title": "OpenAI",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "OpenAI"
+        }
+      },
+      {
+        "title": "Computer Vision",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "Computer Vision"
+        }
+      },
+      {
+        "title": "Neural Networks",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "Neural Networks"
+        }
+      },
+      {
+        "title": "Machine Learning",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Machine Learning"
+        }
+      },
+      {
+        "title": "Cloud Processing",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Cloud Processing"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is ShipStart",
+    "label": "OVERVIEW",
+    "description": "A SaaS website-building platform tailored for global-facing developers to help your product reach users worldwide instantly.",
+    "image": {
+      "src": "/imgs/features/1.webp"
+    },
+    "items": [
+      {
+        "title": "ShipStart Free Website Builder",
+        "description": "A completely free online building system—no coding required. It integrates key modules such as payment systems, user management, and analytics. The drag-and-drop interface lets you focus on your product while we handle the tech. Go live in just 3 minutes.",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "Core Resources Library"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "See Pricing",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipStart AI Optimization Engine",
+        "description": "Built-in AI analyzes user behavior automatically. The AI assistant provides real-time improvement suggestions that boost conversions by up to 40%. From copywriting to layout tweaks, your site stays in peak marketing condition without hiring a team.",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/2.webp",
+          "alt": "ShipStart AI optimizing website performance"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "View Pricing",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipStart Online One-Click Deployment",
+        "description": "Cloud hosting ensures 99.9% uptime. Global CDN delivers fast access for users worldwide. Automatic SSL, domain binding, and SEO optimization are all included—zero technical barrier so founders can focus fully on their product.",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "ShipStart deploying website to production"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "See Pricing",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ShipStart 50+ Professional Templates",
+        "description": "Choose from 50+ SaaS-optimized templates covering tools, services, communities, and more. Each is conversion-ready with drag-and-drop customization. Pick a template, add your content, and launch—no design skills required.",
+        "icon": "RiDownloadLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "ShipStart professional template library"
+        },
+        "buttons": [
+          {
+            "title": "Start Creating",
+            "url": "/#generator",
+            "variant": "default"
+          },
+          {
+            "title": "See Pricing",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Developers Choose ShipStart",
+    "label": "Core Benefits",
+    "description": "Zero-cost startup with professional-grade features so your SaaS wins from day one.",
+    "items": [
+      {
+        "title": "Truly Zero Cost",
+        "description": "ShipStart is 100% free with no hidden fees. Features that cost $49–299/month elsewhere—unlimited pages, user management, payment integration, analytics dashboards—are all unlocked here. Ideal for indie developers, saving thousands in early costs so you can invest in product and marketing instead.",
+        "icon": "RiStarLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "ShipStart free website builder interface"
+        },
+        "buttons": [
+          {
+            "title": "Create Free",
+            "url": "/#generator",
+            "variant": "default"
+          }
+          
+        ]
+      },
+      {
+        "title": "Lightning Fast",
+        "description": "From creating an account to publishing your website takes only 3 minutes. Choose from 50+ templates optimized for SaaS, customize, and publish. Compared to the 2–4 weeks required for traditional development, ShipStart helps you enter the market a month earlier. Automated workflows handle updates and backups so you can focus on growth.",
+        "icon": "RiGiftLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "ShipStart lightning fast deployment"
+        },
+        "buttons": [
+          {
+            "title": "Create Free",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "Optimized for Global Expansion",
+        "description": "Deeply understands the needs of global-facing developers. Supports 20+ languages with auto-translation, multi-currency payments, and GDPR-compliant data handling. Integrated Google Analytics and Meta Pixel help you track overseas performance. With servers across 15 regions, users in the US and Europe experience near-local speeds.",
+        "icon": "RiSpeedLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "ShipStart global expansion features"
+        },
+        "buttons": [
+          {
+            "title": "Create Free",
+            "url": "/#generator",
+            "variant": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "label": "HOW TO USE",
+    "title": "How to Build a ShipStart Website",
+    "description": "Create a professional website in three steps—fully online in just 180 seconds.",
+    "items": [
+      {
+        "title": "Select Template",
+        "description": "Browse 50+ carefully crafted SaaS templates covering tools, services, communities, and more. Each is optimized for conversions—just pick and start customizing.",
+        "icon": "RiEditLine"
+      },
+      {
+        "title": "Customize Your Content",
+        "description": "Use the ShipStart Online Editor to modify text, images, and colors. The AI assistant suggests copy and layout based on your product type. Preview changes instantly.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Publish with One Click",
+        "description": "Click Publish to automatically configure domain binding, SSL certificates, and CDN deployment. Your website goes live instantly and updates are equally effortless.",
+        "icon": "RiSettings3Line"
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "label": "FEATURES",
+    "title": "ShipStart Core Features Overview",
+    "description": "Enterprise-level capabilities made simple for indie developers, powering your product’s growth.",
+    "items": [
+      {
+        "title": "Visual Editor",
+        "description": "Drag-and-drop interface with real-time preview. A library of 50+ components allows you to create custom layouts without design skills.",
+        "icon": "RiEyeLine"
+      },
+      {
+        "title": "User Authentication System",
+        "description": "Supports email, Google, GitHub, and more. Automatically manages permissions and subscription tiers. Built-in trial and upgrade flows boost retention by 35%.",
+        "icon": "RiHdLine"
+      },
+      {
+        "title": "Payment Integration",
+        "description": "Integrated with Stripe and PayPal. Handles subscription billing, invoices, refunds, and more—freeing you from backend complexity.",
+        "icon": "RiLayoutLine"
+      },
+      {
+        "title": "Analytics Dashboard",
+        "description": "Track user behavior, funnels, and revenue trends in real time. Clear visual charts help you discover growth opportunities and boost ROI by up to 50%.",
+        "icon": "RiStarSLine"
+      },
+      {
+        "title": "Automatic SEO Optimization",
+        "description": "Generates titles, descriptions, and schema markup automatically. Auto-submits to search engines and optimizes loading speed for higher Google rankings.",
+        "icon": "RiCloudLine"
+      },
+      {
+        "title": "Email Marketing Tools",
+        "description": "Built-in email sending for welcome messages, product updates, campaigns, and more. A/B testing helps you discover high-performing copy, increasing open rates by 45%.",
+        "icon": "RiShareLine"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Can't find the answer to your question? Contact us for help.",
+    "buttons": [
+      {
+        "title": "Contact Us",
+        "url": "/#contact",
+        "variant": "default"
+      }
+    ],
+    "items": [
+      {
+        "title": "Is ShipStart free?",
+        "description": "Yes. ShipStart offers a permanently free plan with unlimited pages, user management, payment integration, analytics, and more. No credit card required and no hidden fees. Full commercial use is allowed."
+      },
+      {
+        "title": "Which platforms does ShipFire Online support?",
+        "description": "Supports custom domains, Vercel, Netlify, and other major hosting platforms. A free *.shipfire.app subdomain is available for testing. SSL and CDN are configured automatically for global performance."
+      },
+      {
+        "title": "Can I use ShipFire without technical experience?",
+        "description": "Absolutely. ShipFire is designed for non-technical users with a drag-and-drop editor, tutorials, and an AI assistant that provides real-time guidance. Thousands of beginners have built websites with an average learning time under 30 minutes."
+      },
+      {
+        "title": "Can I use ShipFire websites for commercial purposes?",
+        "description": "Yes. Websites built with ShipFire are fully commercial-ready, including selling products, subscriptions, and ads. There are no licensing restrictions or revenue sharing."
+      },
+      {
+        "title": "Can I export or migrate my ShipFire website?",
+        "description": "Yes, you can export full website code including HTML, CSS, and config files. You can migrate to your own server anytime. User and order data can also be exported as CSV for full data ownership."
+      },
+      {
+        "title": "What can ShipFire's AI features do?",
+        "description": "The AI assistant optimizes copy, suggests layout improvements, analyzes user behavior, and predicts conversion bottlenecks. It supports SEO optimization, A/B test generation, and email content creation—trained on data from 50,000+ sites with 92% recommendation accuracy."
+      },
+      {
+        "title": "How secure is my data on ShipFire?",
+        "description": "ShipFire uses enterprise-grade security with encrypted data storage, regular backups, and GDPR compliance. All payment transactions are processed through Stripe and PayPal with PCI-DSS compliance. Your data is never shared with third parties without consent."
+      },
+      {
+        "title": "Does ShipFire support multiple languages?",
+        "description": "Yes. ShipFire supports 20+ languages with automatic translation, multi-currency payment processing, and region-specific content optimization. You can create localized versions of your site for different markets with one-click language switching."
+      },
+      {
+        "title": "What kind of support does ShipFire provide?",
+        "description": "ShipFire offers comprehensive support including detailed documentation, video tutorials, community forums, and email support. Premium users get priority support with faster response times. All users have access to the AI assistant for real-time guidance."
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonials",
+    "title": "What Developers Say About ShipFire",
+    "description": "See how global developers are using ShipFire to accelerate their business.",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Leo",
+        "label": "Streetwear Brand Owner",
+        "description": "I used to spend three weeks building a site, only to get less than 2% conversion. With ShipFire Free, I rebuilt everything in 3 hours and hit 8.5%. Now all my time goes to product development.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mei",
+        "label": "Social Media Manager",
+        "description": "Our team has no front-end devs and Webflow was too expensive. Switching to ShipFire saved us $3,600 a year and the AI optimization identified 5 issues that boosted our MRR by 38%.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Robin",
+        "label": "Visual Design Instructor",
+        "description": "The AI suggestions are my favorite. Last week it recommended a pricing page tweak—after applying it our paid conversion jumped from 4% to 6.2%, generating an extra $2,000/month.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Emma Taylor",
+        "label": "Content Creator",
+        "description": "I built 12 landing pages for clients using ShipFire, each in about 20 minutes. The built-in A/B testing and analytics simplified optimization—client ROI improved by 55%.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      },
+      {
+        "title": "Carlos Martinez",
+        "label": "T-Shirt Designer",
+        "description": "I sell online courses and WordPress plugins always caused conflicts. ShipFire tripled my site speed and made checkout smoother. Refunds dropped by 70%—students love the experience.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jasmine Lee",
+        "label": "Event Organizer",
+        "description": "As a developer I didn't think I needed a builder, but ShipFire is free and surprisingly powerful. I used it to validate a new startup idea: went from concept to live MVP in 4 hours.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Alex Chen",
+        "label": "SaaS Founder",
+        "description": "The multi-language support is a game-changer for our global expansion. We launched in 5 countries simultaneously with localized content and payment methods. Revenue increased 120% in the first quarter.",
+        "image": {
+          "src": "/imgs/users/7.png"
+        }
+      },
+      {
+        "title": "Sarah Johnson",
+        "label": "Marketing Director",
+        "description": "ShipFire's analytics dashboard helped us identify conversion bottlenecks we never noticed before. After implementing the AI recommendations, our email signup rate doubled and customer acquisition cost dropped by 45%.",
+        "image": {
+          "src": "/imgs/users/8.png"
+        }
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Building with ShipFire Today",
+    "description": "No credit card needed. No technical skills required. Build a professional site in 3 minutes. Join 50,000+ global developers and reach users worldwide. All core features are free forever.",
+    "buttons": [
+      {
+        "title": "Start Creating Now",
+        "icon": "RiGiftLine",
+        "url": "/#generator",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "ShipFire",
+      "description": "ShipFire is dedicated to helping global indie developers quickly build professional SaaS websites with zero code, providing free, high-quality website building solutions with built-in AI optimization tools.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "ShipFire"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • ShipFire. All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": []
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "FAQ",
+              "url": "/#faq"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "children": []
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "Discord",
+          "icon": "RiDiscordFill",
+          "url": "https://discord.gg/shipfire",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@shipfire.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "badges": [],
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

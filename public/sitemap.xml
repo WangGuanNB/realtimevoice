@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://shipstart.net/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://shipstart.net/privacy-policy</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>https://shipstart.net/terms-of-service</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+ 
+
+  <!-- <url>
+    <loc>https://shipstart.net/zh/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/ms/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/pt/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url> -->
+  
+  
+  <!-- <url>
+    <loc>https://shipstart.net/posts/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/about/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/pricing/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/showcase/</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url> -->
+  
+  
+  <!-- <url>
+    <loc>https://shipstart.net/privacy-policy</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url> -->
+  
+  <!-- <url>
+    <loc>https://shipstart.net/terms-of-service</loc>
+    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url> -->
+ 
+
+</urlset>

@@ -1,0 +1,259 @@
+{
+  "metadata": {
+    "title": "ShipStart - Build Your SaaS Website in 3 Minutes",
+    "description": "A free website builder designed for global indie developers. Launch your product in 48 hours with zero code and built-in AI optimization tools. ShipStart helps your product reach users worldwide instantly.",
+    "keywords": "ShipStart, SaaS website builder, website builder, indie developer tools, no-code website builder, AI website builder, global website builder, free website builder"
+  },
+  "user": {
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out",
+    "credits": "Credits",
+    "api_keys": "API Keys",
+    "my_orders": "My Orders",
+    "user_center": "User Center"
+  },
+  "sign_modal": {
+    "sign_in_title": "Sign In",
+    "sign_in_description": "Sign in to your account",
+    "sign_up_title": "Sign Up",
+    "sign_up_description": "Create an account",
+    "email_title": "Email",
+    "email_placeholder": "Input your email here",
+    "password_title": "Password",
+    "password_placeholder": "Input your password here",
+    "forgot_password": "Forgot password?",
+    "or": "Or",
+    "continue": "Continue",
+    "no_account": "Don't have an account?",
+    "email_sign_in": "Sign in with Email",
+    "google_sign_in": "Sign in with Google",
+    "github_sign_in": "Sign in with GitHub",
+    "close_title": "Close",
+    "cancel_title": "Cancel"
+  },
+  "my_orders": {
+    "title": "My Orders",
+    "description": "Orders placed on ShipStart.",
+    "no_orders": "No orders found",
+    "tip": "",
+    "activate_order": "Activate Order",
+    "actived": "Activated",
+    "join_discord": "Join Discord",
+    "read_docs": "Read Docs",
+    "table": {
+      "order_no": "Order No",
+      "email": "Email",
+      "product_name": "Product Name",
+      "amount": "Amount",
+      "paid_at": "Paid At",
+      "github_username": "GitHub Username",
+      "status": "Status"
+    }
+  },
+  "my_credits": {
+    "title": "My Credits",
+    "left_tip": "left credits: {left_credits}",
+    "no_credits": "No credits records",
+    "recharge": "Recharge",
+    "table": {
+      "trans_no": "Trans No",
+      "trans_type": "Trans Type",
+      "credits": "Credits",
+      "updated_at": "Updated At",
+      "status": "Status"
+    }
+  },
+  "api_keys": {
+    "title": "API Keys",
+    "tip": "Please keep your apikey safe to avoid leaks",
+    "no_api_keys": "No API Keys",
+    "create_api_key": "Create API Key",
+    "table": {
+      "name": "Name",
+      "key": "Key",
+      "created_at": "Created At"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Key Name",
+      "submit": "Submit"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Latest articles, tutorials, and product updates",
+    "no_posts": "No posts yet. Check back soon!",
+    "read_more_text": "Read More",
+    "tools_notice": {
+      "text": "Looking for hands-on tools? Beyond these tutorials, explore our complete suite of website building tools on our",
+      "link_text": "main ShipStart homepage",
+      "suffix": "for immediate website creation and advanced features."
+    }
+  },
+  "my_invites": {
+    "title": "My Invites",
+    "description": "View your invite records",
+    "no_invites": "No invite records found",
+    "my_invite_link": "My Invite Link",
+    "edit_invite_link": "Edit Invite Link",
+    "copy_invite_link": "Copy Invite Link",
+    "invite_code": "Invite Code",
+    "invite_tip": "Invite 1 friend to use ShipStart, reward $50.",
+    "invite_balance": "Invite Reward Balance",
+    "total_invite_count": "Total Invite Count",
+    "total_paid_count": "Total Paid Count",
+    "total_award_amount": "Total Award Amount",
+    "update_invite_code": "Set Invite Code",
+    "update_invite_code_tip": "Input your custom invite code",
+    "update_invite_button": "Save",
+    "no_orders": "You can't invite others before you purchased ShipStart",
+    "no_affiliates": "You're not allowed to invite others, please contact us to apply for permission.",
+    "table": {
+      "invite_time": "Invite Time",
+      "invite_user": "Invite User",
+      "status": "Status",
+      "reward_percent": "Reward Percent",
+      "reward_amount": "Reward Amount",
+      "pending": "Pending",
+      "completed": "Completed"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "We'd love to hear what went well or how we can improve the ShipStart experience.",
+    "submit": "Submit",
+    "loading": "Submitting...",
+    "contact_tip": "Other ways to contact us",
+    "rating_tip": "How do you feel about {project}?",
+    "placeholder": "Leave your words here..."
+  },
+  "share": {
+    "title": "Share this website",
+    "text": "Just created this website for FREE using ShipStart! Try it yourself:",
+    "preparing": "Preparing for share...",
+    "success": "Link copied to clipboard!",
+    "failed": "Failed to copy link",
+    "uploading": "Preparing website for sharing...",
+    "platforms": {
+      "twitter": "Twitter",
+      "facebook": "Facebook", 
+      "linkedin": "LinkedIn",
+      "pinterest": "Pinterest",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "reddit": "Reddit",
+      "copy": "Copy"
+    }
+  },
+  "websiteBuilder": {
+    "ui": {
+      "title": "Build Your SaaS Website with ShipStart",
+      "subtitle": "Launch your product in 48 hours with zero code"
+    },
+    "upload": {
+      "title": "Choose Your Template",
+      "subtitle": "Select from our professional website templates",
+      "dragDrop": "Browse our diverse template collection",
+      "fileInfo": "SaaS Templates • Landing Pages • Product Pages • More"
+    },
+    "instructions": {
+      "title": "Enter Your Product Details",
+      "subtitle": "Describe your product and customize your website",
+      "translate": "Translate",
+      "autoTranslateEnabled": "Auto-translate enabled"
+    },
+    "usage": {
+      "remaining": "Free website builds remaining: {remaining}/3",
+      "signInTip": "Sign in for unlimited website creation!",
+      "limitReached": "Daily limit reached (3/3 free builds used)",
+      "signInUnlimited": "Sign in for unlimited access or try again tomorrow!"
+    },
+    "buttons": {
+      "generate": "Build Website",
+      "generating": "Creating Your Website...",
+      "limitReached": "Daily Limit Reached - Sign In",
+      "download": "Download Website",
+      "regenerate": "Try Another Template"
+    },
+    "result": {
+      "title": "Ready to Build",
+      "subtitle": "Enter your product details to see the magic happen",
+      "readyTitle": "Your Free Website Builder Awaits",
+      "readySubtitle": "Describe your product and choose from diverse templates. Create professional websites in minutes.",
+      "willAppear": "Your custom website will appear here",
+      "creating": "Creating your website...",
+      "almostDone": "Almost done! Your website is taking shape",
+      "takeFewMoments": "This may take a few moments"
+    },
+    "messages": {
+      "uploadValidImage": "Please select a valid template",
+      "imageTooLarge": "Content is too long, please keep it concise",
+      "uploadSuccess": "Template selected successfully",
+      "pleaseUploadImage": "Please enter your product details",
+      "pleaseProvideInstructions": "Please select a website template",
+      "dailyLimitExceeded": "Daily limit exceeded! Please sign in for unlimited website creation or try again tomorrow.",
+      "websiteGeneratedSuccess": "Website created successfully!",
+      "generationFailed": "Generation failed",
+      "generateWebsiteFailed": "Failed to generate website. Please try again.",
+      "imageDownloaded": "Website downloaded!",
+      "imageDownloadFailed": "Failed to download website"
+    }
+  },
+  "payment": {
+    "modal": {
+      "title": "Choose Your Plan",
+      "description": "Upgrade to unlock more website templates and features",
+      "most_popular": "Most Popular",
+      "credits": "Credits",
+      "month": "Month",
+      "year": "Year",
+      "processing": "Processing...",
+      "select_plan": "Select This Plan",
+      "international_payment": "International Payment",
+      "china_payment": "Alipay/WeChat Pay",
+      "stripe_payment": "Stripe Payment",
+      "creem_payment": "Creem Payment"
+    },
+    "test": {
+      "basic": {
+        "title": "Basic Plan",
+        "description": "100 Credits",
+        "feature1": "100 website builds",
+        "feature2": "Standard speed",
+        "feature3": "Email support"
+      },
+      "pro": {
+        "title": "Professional Plan",
+        "description": "500 Credits",
+        "feature1": "500 website builds",
+        "feature2": "Priority speed",
+        "feature3": "24/7 technical support",
+        "feature4": "HD output"
+      },
+      "enterprise": {
+        "title": "Enterprise Plan",
+        "description": "2000 Credits",
+        "feature1": "2000 website builds",
+        "feature2": "Fastest speed",
+        "feature3": "Dedicated support",
+        "feature4": "API access",
+        "feature5": "Batch processing"
+      },
+      "test_title": "Payment Modal Test",
+      "open_default": "Open Payment Modal (Default Config)",
+      "open_custom": "Open Payment Modal (Custom Config)",
+      "default_description": "Using translated title and description",
+      "custom_description": "Simulating insufficient credits scenario",
+      "instructions_title": "Test Instructions",
+      "instruction1": "Desktop displays as Dialog modal",
+      "instruction2": "Mobile displays as Drawer",
+      "instruction3": "Supports multi-language switching",
+      "instruction4": "Includes international and China payment options",
+      "instruction5": "Login required for payment",
+      "success_message": "Payment successful! Credits added",
+      "insufficient_title": "Insufficient Credits",
+      "insufficient_description": "You don't have enough credits, please upgrade to continue using website building features",
+      "upgrade_success": "Upgrade successful! Features unlocked"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+User-agent: *
+
+# 只允许英文首页（根路径）
+Allow: /$
+
+# 允许静态资源
+Allow: /favicon.ico
+Allow: /logo.png
+Allow: /logo.ico
+Allow: /imgs/
+
+# 允许法律页面（合规要求）
+Allow: /privacy-policy
+Allow: /terms-of-service
+
+# 阻止所有其他页面和语言版本
+Disallow: /zh
+Disallow: /pt
+Disallow: /ms
+Disallow: /en
+Disallow: /posts
+Disallow: /about
+Disallow: /pricing
+Disallow: /showcase
+Disallow: /converter
+Disallow: /color
+Disallow: /docs
+Disallow: /admin
+Disallow: /api-keys
+Disallow: /my-
+Disallow: /i/
+Disallow: /share
+Disallow: /pay-success
+Disallow: /auth
+
+
+# 阻止跟踪参数 URL
+Disallow: /*?ref=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?gclid=
+Disallow: /*?fbclid=
+
+Sitemap: https://shipstart.net/sitemap.xml

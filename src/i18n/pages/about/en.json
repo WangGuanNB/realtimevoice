@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "About Wplace Pixel - Leading Free Pixel Art Converter Tool",
+    "description": "Learn about Wplace Pixel, the #1 free tool for converting images to Wplace pixel art. Community-built, privacy-focused converter with official 64-color palette support.",
+    "keywords": ["about wplace pixel", "wplace pixel converter", "free pixel art tool", "wplace art converter", "image to pixel converter", "wplace color palette", "pixel art generator"]
+  },
+  "title": "About Wplace Pixel",
+  "intro": "Wplace Pixel is the ultimate pixel art tool specifically designed for Wplace.live. Our converter transforms your photos into perfect pixel art that seamlessly integrates with the global collaborative canvas, enabling you to create stunning artworks on the world map.",
+  "story": {
+    "title": "Our Story",
+    "content": "Wplace Pixel was born from the passion of the Wplace community members who wanted to create more detailed and accurate pixel art in the game. We noticed that players struggled with converting their favorite images to the Wplace limited color palette, so we developed this tool to help players easily transform their creative ideas into pixel-perfect artworks."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "empowerment": {
+      "title": "Empowerment Through Tools",
+      "description": "We believe every Wplace player should have access to professional-grade tools that enhance their creative experience, regardless of their technical background."
+    },
+    "community": {
+      "title": "Community First", 
+      "description": "Built by the community, for the community. Our tools are free and open, designed to serve the Wplace player community without barriers."
+    },
+    "privacy": {
+      "title": "Privacy by Design",
+      "description": "All processing happens locally in your browser. Your images never leave your device, ensuring complete privacy and security."
+    },
+    "innovation": {
+      "title": "Continuous Innovation",
+      "description": "We continuously improve our algorithms and features based on community feedback and the evolving needs of Wplace players."
+    }
+  },
+  "features": {
+    "title": "Our Features",
+    "fast": {
+      "title": "Lightning Fast Processing",
+      "description": "Advanced algorithms process images instantly, providing real-time preview of your Wplace pixel art."
+    },
+    "matching": {
+      "title": "Perfect Matching", 
+      "description": "Our color matching algorithm ensures the closest possible match to the official Wplace color palette."
+    },
+    "global": {
+      "title": "Global Support",
+      "description": "Multi-language support makes it easy for Wplace players worldwide to create pixel art."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have suggestions, found a bug, or want to contribute? We'd love to hear from the Wplace community!",
+    "notice": "Important Notice: This is an unofficial, independent fan-made website created to address community pain points. We are not affiliated with or endorsed by the official Wplace platform. This tool is created by fans, for fans, to enhance the pixel art creation experience."
+  },
+  "ready": {
+    "title": "Ready to Start Creating?",
+    "description": "Now that you know more about Wplace Pixel, it's time to experience our tools firsthand! Visit our",
+    "homepage_link": "main Wplace Pixel homepage",
+    "description_continued": "to access our complete pixel art generator, color converter, and advanced planning tools designed specifically for Wplace.live creators.",
+    "subtitle": "Transform your creative ideas into stunning pixel art - completely free and privacy-first!"
+  },
+  "footer": {
+    "copyright": "© 2025 Wplace Pixel - Free to use, no ownership claimed over generated artworks",
+    "privacy": "Client-side processing protects your privacy"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "title": "关于 Wplace Pixel - 领先的免费像素艺术转换器工具",
+    "description": "了解 Wplace Pixel，将图片转换为 Wplace 像素艺术的第一免费工具。社区构建，注重隐私的转换器，支持官方64色调色板。",
+    "keywords": ["关于 wplace pixel", "wplace pixel 转换器", "免费像素艺术工具", "wplace 艺术转换器", "图片到像素转换器", "wplace 颜色调色板", "像素艺术生成器"]
+  },
+  "title": "关于 Wplace Pixel",
+  "intro": "Wplace Pixel 是专为 Wplace.live 设计的终极像素艺术工具。我们的转换器将您的照片转换为完美的像素艺术，无缝集成到全球协作画布中，让您在世界地图上创造令人惊叹的艺术作品。",
+  "story": {
+    "title": "我们的故事",
+    "content": "Wplace Pixel 诞生于 Wplace 社区成员的热情，他们希望在游戏中创造更详细和准确的像素艺术。我们注意到玩家在将他们喜爱的图片转换为 Wplace 有限调色板时遇到困难，因此我们开发了这个工具来帮助玩家轻松地将他们的创意想法转化为像素完美的艺术作品。"
+  },
+  "mission": {
+    "title": "我们的使命",
+    "empowerment": {
+      "title": "通过工具赋能",
+      "description": "我们相信每个 Wplace 玩家都应该拥有专业级工具来增强他们的创作体验，无论他们的技术背景如何。"
+    },
+    "community": {
+      "title": "社区优先",
+      "description": "由社区构建，为社区服务。我们的工具是免费和开放的，旨在为 Wplace 玩家社区提供无障碍服务。"
+    },
+    "privacy": {
+      "title": "设计注重隐私",
+      "description": "所有处理都在您的浏览器中本地进行。您的图片永远不会离开您的设备，确保完全的隐私和安全。"
+    },
+    "innovation": {
+      "title": "持续创新",
+      "description": "我们根据社区反馈和 Wplace 玩家不断发展的需求，持续改进我们的算法和功能。"
+    }
+  },
+  "features": {
+    "title": "我们的功能",
+    "fast": {
+      "title": "闪电般快速处理",
+      "description": "先进的算法即时处理图片，为您的 Wplace 像素艺术提供实时预览。"
+    },
+    "matching": {
+      "title": "完美匹配",
+      "description": "我们的颜色匹配算法确保与官方 Wplace 调色板最接近的匹配。"
+    },
+    "global": {
+      "title": "全球支持",
+      "description": "多语言支持让世界各地的 Wplace 玩家都能轻松创建像素艺术。"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "有建议、发现错误或想要贡献？我们很乐意听取 Wplace 社区的声音！",
+    "notice": "重要声明：这是一个非官方的、独立的粉丝网站，旨在解决社区痛点。我们与官方 Wplace 平台没有关联或认可。这个工具是由粉丝为粉丝创建的，旨在增强像素艺术创作体验。"
+  },
+  "ready": {
+    "title": "准备开始创作？",
+    "description": "现在您对 Wplace Pixel 有了更多了解，是时候亲身体验我们的工具了！访问我们的",
+    "homepage_link": "Wplace Pixel 主页",
+    "description_continued": "访问我们完整的像素艺术生成器、颜色转换器和专为 Wplace.live 创作者设计的高级规划工具。",
+    "subtitle": "将您的创意想法转化为惊人的像素艺术 - 完全免费且隐私优先！"
+  },
+  "footer": {
+    "copyright": "© 2025 Wplace Pixel - 免费使用，不声明对生成艺术作品的所有权",
+    "privacy": "客户端处理保护您的隐私"
+  }
+}

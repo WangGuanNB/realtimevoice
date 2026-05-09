@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Choose Your Plan",
+    "description": "Get all features of ShipAny, ship your AI SaaS startups fast.",
+    "groups": [
+      {"name": "monthly", "title": "Monthly"},
+      {"name": "yearly", "title": "Yearly", "label": "Save 50%"}
+    ],
+    "items": [
+      {"title":"Starter","description":"Get started with your first SaaS startup.","features_title":"Includes","features":["100 credits, valid for 1 month","NextJS boilerplate","SEO-friendly structure","Payment with Stripe","Data storage with Supabase","Google Oauth & One-Tap Login","i18n support"],"interval":"one-time","amount":199,"cn_amount":1430,"currency":"USD","price":"$1.99","original_price":"$99","unit":"USD","is_featured":false,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"starter","creem_product_id":"starter","product_name":"ShipAny Boilerplate Starter","credits":100,"valid_months":1,"group":"monthly"},
+      {"title":"Standard","description":"Ship fast with your SaaS startups.","label":"Popular","features_title":"Everything in Starter, plus","features":["200 credits, valid for 3 months","Deploy with Vercel or Cloudflare","Generation of Privacy & Terms","Google Analytics Integration","Google Search Console Integration","Discord community","Technical support for your first ship","Lifetime updates"],"interval":"one-time","amount":599,"cn_amount":4310,"currency":"USD","price":"$5.99","original_price":"$299","unit":"USD","is_featured":true,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"standard","creem_product_id":"standard_monthly","product_name":"ShipAny Boilerplate Standard","credits":200,"valid_months":3,"group":"monthly"},
+      {"title":"Premium","description":"Ship any AI SaaS startups.","features_title":"Everything in Standard, plus","features":["300 credits, valid for 1 year","Business Functions with AI","User Center","Credits System","API Sales for your SaaS","Admin System","Priority Technical Support"],"interval":"one-time","amount":1999,"cn_amount":14400,"currency":"USD","price":"$19.99","original_price":"$399","unit":"USD","is_featured":false,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"premium","creem_product_id":"premium_monthly","product_name":"ShipAny Boilerplate Premium","credits":300,"valid_months":12,"group":"monthly"},
+      {"title":"Starter","description":"Get started with your first SaaS startup.","features_title":"Includes","features":["100 credits, valid for 1 year","NextJS boilerplate","SEO-friendly structure","Payment with Stripe","Data storage with Supabase","Google Oauth & One-Tap Login","i18n support"],"interval":"one-time","amount":1200,"cn_amount":8640,"currency":"USD","price":"$12","original_price":"$99","unit":"USD","unit_note":"Billed annually","is_featured":false,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"starter","creem_product_id":"starter_yearly","product_name":"ShipAny Boilerplate Starter","credits":100,"valid_months":12,"group":"yearly"},
+      {"title":"Standard","description":"Ship fast with your SaaS startups.","label":"Popular","features_title":"Everything in Starter, plus","features":["200 credits, valid for 1 year","Deploy with Vercel or Cloudflare","Generation of Privacy & Terms","Google Analytics Integration","Google Search Console Integration","Discord community","Technical support for your first ship","Lifetime updates"],"interval":"one-time","amount":19900,"cn_amount":143300,"currency":"USD","price":"$199","original_price":"$299","unit":"USD","unit_note":"Billed annually","is_featured":true,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"standard","creem_product_id":"standard_yearly","product_name":"ShipAny Boilerplate Standard","credits":200,"valid_months":12,"group":"yearly"},
+      {"title":"Premium","description":"Ship any AI SaaS startups.","features_title":"Everything in Standard, plus","features":["300 credits, valid for 1 year","Business Functions with AI","User Center","Credits System","API Sales for your SaaS","Admin System","Priority Technical Support"],"interval":"one-time","amount":39999,"cn_amount":288000,"currency":"USD","price":"$399.99","original_price":"$499","unit":"USD","unit_note":"Billed annually","is_featured":false,"tip":"","button":{"title":"Upgrade","url":"/pricing","icon":"RiFlashlightFill"},"product_id":"premium","creem_product_id":"premium_yearly","product_name":"ShipAny Boilerplate Premium","credits":300,"valid_months":12,"group":"yearly"}
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Get answers to common questions about our subscription plans.",
+    "items": [
+      {"title": "Why subscribe?", "description": "Your support helps us keep improving the product, and you get valuable benefits: watermark-free outputs, priority queue, faster generation, full privacy, and ad-free experience."},
+      {"title": "Can I upgrade or cancel?", "description": "Anytime! You can upgrade or cancel in one click from your account settings page. Your subscription runs through the end of your billing term, with no long-term contract."},
+      {"title": "Can I get a refund?", "description": "We currently do not offer refunds. Please review the plan details before purchasing. For exceptional cases, contact support@shipfire.app."},
+      {"title": "Do I get higher quality with paid plans?", "description": "Yes. Standard and Premium unlock more features and benefits, including priority queue, watermark-free outputs, commercial use rights, and more."},
+      {"title": "Does my subscription include API access?", "description": "We don't have a public API at the moment but plan to offer one in the future. Feel free to reach out at support@shipfire.app with your requirements."},
+      {"title": "Can I get help using the product?", "description": "Yes! Contact us at support@shipfire.app. Paid users receive priority technical support, and we'll respond as quickly as possible."}
+    ]
+  }
+}
