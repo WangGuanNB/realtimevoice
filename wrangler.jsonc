@@ -129,7 +129,7 @@
 
     // ========== 12. 分析统计配置 ==========
     // Google Analytics ID
-    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "",
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-C8XYZRC52M",
     // OpenPanel Client ID
     "NEXT_PUBLIC_OPENPANEL_CLIENT_ID": "",
     // Plausible 域名
