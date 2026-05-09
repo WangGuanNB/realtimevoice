@@ -1,5 +1,5 @@
 {
-  "name": "shipfire",
+  "name": "realtimevoice",
   "compatibility_date": "2025-01-10",
   // enable_nodejs_http_modules: PayPal SDK 等依赖 https.request，需启用此标志
   "compatibility_flags": ["nodejs_compat", "enable_nodejs_http_modules"],
