@@ -6,6 +6,7 @@ import Feature3 from "@/components/blocks/feature3";
 import Hero from "@/components/blocks/hero";
 import FeatureWhatTwo from "@/components/blocks/feature-what-two";
 import Testimonial from "@/components/blocks/testimonial";
+import VoicePlayground from "@/components/blocks/voice-playground";
 import { getLandingPage } from "@/services/page";
 import { getCanonicalUrl } from "@/lib/utils";
 
@@ -47,6 +48,9 @@ export default async function LandingPage({
     <>
       {/* Hero Section：一句主标题 + 一句副标题 + 一段简短价值描述 + CTA按钮文字-----------*/}
       {page.hero && <Hero hero={page.hero}/> }
+
+      {/* Demo Section: Live Voice Playground — anchored at /#demo */}
+      <VoicePlayground />
 
       {/* What is [Tool Name]：定义该工具是什么，主要解决哪些痛点（含主关键词）----------- */}
       {page.introduce && <FeatureWhatTwo section={page.introduce} />}

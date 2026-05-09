@@ -75,4 +75,15 @@ pre {
   .animate-grid {
     animation: retro-grid 15s linear infinite;
   }
+
+  @keyframes voiceBar {
+    from {
+      transform: scaleY(0.3);
+      opacity: 0.5;
+    }
+    to {
+      transform: scaleY(1.4);
+      opacity: 1;
+    }
+  }
 }

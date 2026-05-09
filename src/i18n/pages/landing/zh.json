@@ -83,7 +83,7 @@
     "show_badge": true
   },
   "branding": {
-    "title": "基于 OpenAI GPT Realtime 2 基础架构构建",
+    "title": "与您团队正在使用的工具无缝连接",
     "items": [
       {
         "title": "OpenAI",
@@ -93,31 +93,38 @@
         }
       },
       {
-        "title": "WebRTC",
+        "title": "Salesforce",
         "image": {
-          "src": "/imgs/logos/webrtc.svg",
-          "alt": "WebRTC"
+          "src": "/imgs/logos/salesforce.svg",
+          "alt": "Salesforce CRM"
         }
       },
       {
-        "title": "Stripe",
+        "title": "HubSpot",
         "image": {
-          "src": "/imgs/logos/stripe.svg",
-          "alt": "Stripe"
+          "src": "/imgs/logos/hubspot.svg",
+          "alt": "HubSpot CRM"
         }
       },
       {
-        "title": "Vercel",
+        "title": "Calendly",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/calendly.svg",
+          "alt": "Calendly 日程预约"
         }
       },
       {
-        "title": "Cloudflare",
+        "title": "Twilio",
         "image": {
-          "src": "/imgs/logos/cloudflare.svg",
-          "alt": "Cloudflare"
+          "src": "/imgs/logos/twilio.svg",
+          "alt": "Twilio 电话服务"
+        }
+      },
+      {
+        "title": "Zapier",
+        "image": {
+          "src": "/imgs/logos/zapier.svg",
+          "alt": "Zapier 自动化"
         }
       }
     ]
@@ -174,14 +181,14 @@
         ]
       },
       {
-        "title": "工具调用与实时操作",
-        "description": "GPT Realtime 2 最强大的功能之一是并行工具调用——模型可在对话进行过程中同时触发多个操作，对话自然流畅不中断。RealtimeVoice 提供可视化工具构建器，帮助您连接 API、CRM、日历或数据库，GPT Realtime 2 在实时会话中自动调用这些工具。构建一个能够预约、查询库存或发送确认通知的语音代理——全程无需手动输入。",
+        "title": "连接任意工具——CRM、日历、电话或自定义 API",
+        "description": "GPT Realtime 2 支持并行工具调用——模型可同时触发多个函数，并在执行过程中同步播报进度。RealtimeVoice 的可视化工具构建器让您在通话中实时接入 Salesforce 或 HubSpot 更新 CRM 记录，连接 Cal.com 或 Calendly 自动预约时段，通过 Twilio 在通话结束后立即发送 SMS 确认，借助 Zapier 或 Make 触发任意下游工作流，以及接入任何自定义 REST API 或远程 MCP 服务。所有工具均在实时对话中运行——无需手动输入，无需后续操作。牙科诊所语音预约，银行代理免手动查询余额，销售团队通话结束后直接将记录写入 CRM。",
         "icon": "RiSettings3Line",
         "image": {
           "src": "/imgs/features/3.webp",
-          "alt": "GPT Realtime 2 工具调用配置"
+          "alt": "GPT Realtime 2 工具调用——Salesforce、HubSpot、Calendly、Twilio、Zapier"
         },
-          "buttons": [
+        "buttons": [
           {
             "title": "体验演示",
             "url": "/#demo",

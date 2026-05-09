@@ -83,7 +83,7 @@
     "show_badge": true
   },
   "branding": {
-    "title": "OpenAI の GPT Realtime 2 インフラ上に構築",
+    "title": "チームがすでに使っているツールとシームレスに連携",
     "items": [
       {
         "title": "OpenAI",
@@ -93,31 +93,38 @@
         }
       },
       {
-        "title": "WebRTC",
+        "title": "Salesforce",
         "image": {
-          "src": "/imgs/logos/webrtc.svg",
-          "alt": "WebRTC"
+          "src": "/imgs/logos/salesforce.svg",
+          "alt": "Salesforce CRM"
         }
       },
       {
-        "title": "Stripe",
+        "title": "HubSpot",
         "image": {
-          "src": "/imgs/logos/stripe.svg",
-          "alt": "Stripe"
+          "src": "/imgs/logos/hubspot.svg",
+          "alt": "HubSpot CRM"
         }
       },
       {
-        "title": "Vercel",
+        "title": "Calendly",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/calendly.svg",
+          "alt": "Calendly スケジュール"
         }
       },
       {
-        "title": "Cloudflare",
+        "title": "Twilio",
         "image": {
-          "src": "/imgs/logos/cloudflare.svg",
-          "alt": "Cloudflare"
+          "src": "/imgs/logos/twilio.svg",
+          "alt": "Twilio 電話"
+        }
+      },
+      {
+        "title": "Zapier",
+        "image": {
+          "src": "/imgs/logos/zapier.svg",
+          "alt": "Zapier 自動化"
         }
       }
     ]
@@ -174,14 +181,14 @@
         ]
       },
       {
-        "title": "ツール呼び出しとリアルタイムアクション",
-        "description": "GPT Realtime 2 の最も強力な機能の一つが並列ツール呼び出しです。会話を自然に続けながら、モデルが複数のアクションを同時にトリガーできます。RealtimeVoice はビジュアルツールビルダーを提供し、API、CRM、カレンダー、データベースを接続できます。GPT Realtime 2 はライブセッション中に自動的にこれらを呼び出します。予約、在庫照会、確認送信を行う音声エージェントを、タイピングなしで構築できます。",
+        "title": "CRM・カレンダー・電話・APIを会話中に直接操作",
+        "description": "GPT Realtime 2 は並列ツール呼び出しをサポートしています。モデルは複数の関数呼び出しを同時にトリガーし、実行中に進捗を音声で伝えます。RealtimeVoice のビジュアルツールビルダーで、Salesforce や HubSpot の CRM レコードを通話中にリアルタイム更新し、Cal.com や Calendly で予約を自動化し、通話終了後すぐに Twilio で SMS 確認を送信し、Zapier や Make で任意のワークフローを起動し、カスタム REST API やリモート MCP サーバーにも接続できます。すべてのツールはライブ会話の中で実行され、タイピングも後続操作も不要です。歯科クリニックが音声で予約を受け付け、銀行窓口が残高をハンズフリーで照会し、営業チームが通話直後に CRM へ記録します。",
         "icon": "RiSettings3Line",
         "image": {
           "src": "/imgs/features/3.webp",
-          "alt": "GPT Realtime 2 ツール呼び出し設定"
+          "alt": "GPT Realtime 2 ツール連携 — Salesforce、HubSpot、Calendly、Twilio、Zapier"
         },
-          "buttons": [
+        "buttons": [
           {
             "title": "デモを試す",
             "url": "/#demo",

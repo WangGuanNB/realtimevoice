@@ -83,7 +83,7 @@
     "show_badge": true
   },
   "branding": {
-    "title": "Built on OpenAI's GPT Realtime 2 infrastructure",
+    "title": "Connects to the tools your team already uses",
     "items": [
       {
         "title": "OpenAI",
@@ -93,31 +93,38 @@
         }
       },
       {
-        "title": "WebRTC",
+        "title": "Salesforce",
         "image": {
-          "src": "/imgs/logos/webrtc.svg",
-          "alt": "WebRTC"
+          "src": "/imgs/logos/salesforce.svg",
+          "alt": "Salesforce CRM"
         }
       },
       {
-        "title": "Stripe",
+        "title": "HubSpot",
         "image": {
-          "src": "/imgs/logos/stripe.svg",
-          "alt": "Stripe"
+          "src": "/imgs/logos/hubspot.svg",
+          "alt": "HubSpot CRM"
         }
       },
       {
-        "title": "Vercel",
+        "title": "Calendly",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/calendly.svg",
+          "alt": "Calendly scheduling"
         }
       },
       {
-        "title": "Cloudflare",
+        "title": "Twilio",
         "image": {
-          "src": "/imgs/logos/cloudflare.svg",
-          "alt": "Cloudflare"
+          "src": "/imgs/logos/twilio.svg",
+          "alt": "Twilio telephony"
+        }
+      },
+      {
+        "title": "Zapier",
+        "image": {
+          "src": "/imgs/logos/zapier.svg",
+          "alt": "Zapier automation"
         }
       }
     ]
@@ -174,14 +181,14 @@
         ]
       },
       {
-        "title": "Tool Calling and Live Actions",
-        "description": "One of GPT Realtime 2's most powerful features is parallel tool calling — the model can trigger multiple actions mid-conversation while keeping the dialogue flowing naturally. RealtimeVoice provides a visual tool builder where you connect your APIs, CRMs, calendars, or databases. GPT Realtime 2 will call them automatically during live sessions. Build a voice agent that books appointments, queries inventory, or sends confirmations — all without typing.",
+        "title": "Connect Any Tool — CRM, Calendar, Phone, or API",
+        "description": "GPT Realtime 2 supports parallel tool calling: the model fires multiple function calls simultaneously and narrates progress aloud while they resolve. RealtimeVoice's visual tool builder lets you connect Salesforce or HubSpot to update CRM records mid-call, Cal.com or Calendly to book appointments in real time, Twilio to send an SMS confirmation the moment a call ends, Zapier or Make to trigger any downstream workflow, and any custom REST API or remote MCP server. Every tool runs inside the live conversation — no manual input, no follow-up clicks. A dental clinic books appointments by voice. A bank agent queries balances hands-free. A sales team logs call outcomes directly to the CRM.",
         "icon": "RiSettings3Line",
         "image": {
           "src": "/imgs/features/3.webp",
-          "alt": "GPT Realtime 2 tool calling configuration"
+          "alt": "GPT Realtime 2 tool calling — Salesforce, HubSpot, Calendly, Twilio, Zapier"
         },
-          "buttons": [
+        "buttons": [
           {
             "title": "Try the Demo",
             "url": "/#demo",
