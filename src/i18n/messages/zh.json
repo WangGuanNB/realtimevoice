@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "ShipStart - 3 分钟内构建您的 SaaS 网站",
-    "description": "专为全球独立开发者设计的免费网站构建器。零代码，48 小时内发布产品，内置 AI 优化工具。ShipStart 帮助您的产品快速触达全球用户。",
-    "keywords": "ShipStart, SaaS 网站构建器, 网站构建器, 独立开发者工具, 无代码网站构建器, AI 网站构建器, 全球网站构建器, 免费网站构建器"
+    "title": "GPT Realtime 2 语音代理平台 — RealtimeVoice",
+    "description": "基于 GPT Realtime 2 构建并部署语音代理，无需搭建基础设施，透明费用管理，支持 Web、电话和 App 多渠道部署。立即免费试用。",
+    "keywords": "GPT Realtime 2, GPT Realtime 2 API, GPT Realtime 2 语音代理, OpenAI 实时语音 API, 实时语音 AI, 语音代理构建器, AI 电话代理, 语音转语音 AI, GPT Realtime 2 定价, 构建语音代理"
   },
   "user": {
     "sign_in": "登录",

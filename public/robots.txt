@@ -12,9 +12,11 @@ Allow: /imgs/
 # 允许法律页面（合规要求）
 Allow: /privacy-policy
 Allow: /terms-of-service
+Allow: /zh
+Allow: /ja
+Allow: /ko
 
 # 阻止所有其他页面和语言版本
-Disallow: /zh
 Disallow: /pt
 Disallow: /ms
 Disallow: /en
@@ -42,4 +44,4 @@ Disallow: /*?utm_campaign=
 Disallow: /*?gclid=
 Disallow: /*?fbclid=
 
-Sitemap: https://shipstart.net/sitemap.xml
+Sitemap: https://realtimevoice.app/sitemap.xml

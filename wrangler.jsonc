@@ -1,6 +1,6 @@
 {
-  "name": "shipfire",
-  "compatibility_date": "2025-01-10",
+  "name": "realtimevoice",
+  "compatibility_date": "2026-05-09",
   // enable_nodejs_http_modules: PayPal SDK 等依赖 https.request，需启用此标志
   "compatibility_flags": ["nodejs_compat", "enable_nodejs_http_modules"],
   "build": {
@@ -20,9 +20,9 @@
   "vars": {
     // ========== 1. 基础配置 ==========
     // 网站公开 URL（用于生成链接、邮件等）
-    "NEXT_PUBLIC_WEB_URL": "https://shipstart.net",
+    "NEXT_PUBLIC_WEB_URL": "https://realtimevoice.app",
     // 项目名称（用于显示、邮件等）
-    "NEXT_PUBLIC_PROJECT_NAME": "shipstart",
+    "NEXT_PUBLIC_PROJECT_NAME": "realtimevoice.app",
     // 默认主题（system/light/dark）
     "NEXT_PUBLIC_DEFAULT_THEME": "system",
     // 语言检测（true/false）
@@ -32,11 +32,11 @@
 
     // ========== 2. 认证配置 ==========
     // NextAuth 认证 URL（开发环境: http://localhost:3000/api/auth）
-    "AUTH_URL": "https://shipstart.net/api/auth",
+    "AUTH_URL": "https://realtimevoice.app/api/auth",
     // 信任主机（生产环境设为true）
     "AUTH_TRUST_HOST": "true",
     // 是否启用认证（true/false）
-    "NEXT_PUBLIC_AUTH_ENABLED":"true",
+    "NEXT_PUBLIC_AUTH_ENABLED":"false",
 
     // ========== 3. Google 登录配置 ==========
     // Google OAuth 公开 Client ID（前端使用，用于 One Tap）
@@ -101,9 +101,9 @@
 
     // ========== 8. 邮件服务配置 ==========
     // 发件人邮箱地址（可选，默认: noreply@shipfire.com）
-    "RESEND_FROM_EMAIL": "noreply@astrocarto.org",
+    "RESEND_FROM_EMAIL": "support@realtimevoice.app",
     // 支持邮箱地址（用于联系表单和用户反馈）
-    "NEXT_PUBLIC_SUPPORT_EMAIL": "support@astrocarto.org",
+    "NEXT_PUBLIC_SUPPORT_EMAIL": "support@realtimevoice.app",
 
     // ========== 9. 存储配置 - AWS S3 ==========
     // S3 服务端点

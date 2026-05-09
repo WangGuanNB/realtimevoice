@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipFire",
+      "title": "RealtimeVoice",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipFire"
+        "alt": "RealtimeVoice - GPT Realtime 2 语音代理平台"
       },
       "url": "/"
     },
@@ -16,49 +16,33 @@
           "title": "首页",
           "url": "/",
           "icon": "RiHomeLine"
-        },
-        {
-          "title": "图片生成器",
-          "url": "/image-generator",
-          "icon": "RiImageLine"
-        },
-        {
-          "title": "定价",
-          "url": "/pricing",
-          "icon": "RiPriceTag3Line"
-        },
-        {
-          "title": "博客",
-          "url": "/blog",
-          "icon": "RiArticleLine"
         }
       ]
     },
     "buttons": [],
-    "show_sign": true,
-    "show_theme": true,
+    "show_sign": false,
+    "show_theme": false,
     "show_locale": true
   },
   "hero": {
-    "title": "ShipFire: 3 分钟内构建您的 SaaS 网站",
-    "highlight_text": "闪电般快速",
-    "description": "专为全球独立开发者设计的免费网站构建器。零代码，48 小时内发布产品，内置 AI 优化工具。",
+    "title": "用 GPT Realtime 2 构建生产级语音代理",
+    "highlight_text": "GPT Realtime 2",
+    "description": "RealtimeVoice 是基于 GPT Realtime 2 打造的即用型语音代理平台——OpenAI 迄今最智能的语音到语音模型。无需搭建基础设施，无繁琐计费，接入您的业务场景，几分钟即可上线。",
     "announcement": {
-      "label": "限时",
-      "title": "永久免费",
-      "url": "/#features"
+      "label": "正式上线",
+      "title": "GPT Realtime 2 API 现已全面开放",
+      "url": "/blog/gpt-realtime-2-guide"
     },
-  
     "images": [
       {
-        "src": "/imgs/features/1.png",
-        "alt": "ShipFire 网站构建示例 1",
-        "title": "构建您的 SaaS 网站"
+        "src": "/imgs/features/1.webp",
+        "alt": "RealtimeVoice GPT Realtime 2 语音代理演示",
+        "title": "基于 GPT Realtime 2 的实时语音代理"
       },
       {
-        "src": "/imgs/features/2.png",
-        "alt": "ShipFire 网站模板示例 2", 
-        "title": "50+ 专业模板"
+        "src": "/imgs/features/2.webp",
+        "alt": "GPT Realtime 2 API 管理面板",
+        "title": "GPT Realtime 2 成本与会话管理"
       }
     ],
     "layout": "left-image-right-content",
@@ -66,162 +50,157 @@
     "enable_carousel": true,
     "buttons": [
       {
-        "title": "立即免费构建 SaaS",
-        "icon": "RiMagicLine",
-        "url": "/#generator",
+        "title": "免费试用 GPT Realtime 2",
+        "icon": "RiMicLine",
+        "url": "/#demo",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "探索功能",
-        "url": "/#feature",
+        "title": "查看价格方案",
+        "url": "/#pricing",
         "target": "_self",
         "variant": "secondary"
       }
     ],
     "metrics": [
-      "免费",
-      "50,000+ 开发者信赖"
+      "基于 GPT Realtime 2 驱动",
+      "无需绑定信用卡"
     ],
     "stats": [
       {
-        "value": "50,000+",
-        "label": "涂鸦创作者",
-        "icon": "RiUserLine"
+        "value": "128K",
+        "label": "上下文窗口",
+        "icon": "RiBrainLine"
       },
       {
-        "value": "200,000+",
-        "label": "生成的涂鸦艺术作品",
-        "icon": "RiImageLine"
+        "value": "70+",
+        "label": "支持语言数量",
+        "icon": "RiTranslate2"
       }
     ],
     "show_happy_users": true,
     "show_badge": true
   },
   "branding": {
-    "title": "由尖端AI技术驱动",
+    "title": "基于 OpenAI GPT Realtime 2 基础架构构建",
     "items": [
       {
         "title": "OpenAI",
         "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "OpenAI"
+          "src": "/imgs/logos/openai.svg",
+          "alt": "OpenAI GPT Realtime 2"
         }
       },
       {
-        "title": "计算机视觉",
+        "title": "WebRTC",
         "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "计算机视觉"
+          "src": "/imgs/logos/webrtc.svg",
+          "alt": "WebRTC"
         }
       },
       {
-        "title": "神经网络",
+        "title": "Stripe",
         "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "神经网络"
+          "src": "/imgs/logos/stripe.svg",
+          "alt": "Stripe"
         }
       },
       {
-        "title": "机器学习",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "机器学习"
-        }
-      },
-      {
-        "title": "云端处理",
+        "title": "Vercel",
         "image": {
           "src": "/imgs/logos/vercel.svg",
-          "alt": "云端处理"
+          "alt": "Vercel"
+        }
+      },
+      {
+        "title": "Cloudflare",
+        "image": {
+          "src": "/imgs/logos/cloudflare.svg",
+          "alt": "Cloudflare"
         }
       }
     ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 ShipFire",
-    "label": "OVERVIEW",
-    "description": "一个面向全球开发者的 SaaS 网站构建平台，帮助您的产品快速触达全球用户。",
+    "title": "什么是 RealtimeVoice",
+    "label": "产品概览",
+    "description": "RealtimeVoice 是一个 SaaS 平台，让开发者和企业无需管理基础设施、令牌计费或从头搭建 WebSocket 连接，即可基于 GPT Realtime 2 部署语音代理。",
     "image": {
       "src": "/imgs/features/1.webp"
     },
     "items": [
       {
-        "title": "ShipFire 免费网站构建器",
-        "description": "完全免费的在线构建系统—无需编码。它集成了关键模块，如支付系统、用户管理和分析。拖放界面让您专注于产品，而我们处理技术。只需3分钟即可上线。",
-        "icon": "RiDownloadLine",
+        "title": "几分钟上线 GPT Realtime 2 语音代理",
+        "description": "GPT Realtime 2 是 OpenAI 首款具备 GPT-5 级推理能力的语音模型，能在实时对话中倾听、思考、调用工具并作出回应。RealtimeVoice 将 GPT Realtime 2 API 封装成生产就绪的平台，省去繁琐的 WebSocket 配置、令牌预算管理和会话状态维护。粘贴您的系统提示词，选择音色，代理即刻上线。",
+        "icon": "RiMicLine",
         "image": {
           "src": "/imgs/features/1.webp",
-          "alt": "核心资源库"
+          "alt": "GPT Realtime 2 语音代理配置"
         },
         "buttons": [
           {
-            "title": "开始创作",
-            "url": "/#generator",
+            "title": "体验演示",
+            "url": "/#demo",
             "variant": "default"
           },
           {
-            "title": "查看价格",
-            "url": "/#pricing",
+            "title": "阅读指南",
+            "url": "/blog/gpt-realtime-2-guide",
             "variant": "outline"
           }
         ]
       },
       {
-        "title": "ShipFire AI 优化引擎",
-        "description": "内置 AI 自动分析用户行为。AI 助手提供实时改进建议，将转化率提升高达 40%。从文案到布局调整，您的网站始终保持最佳营销状态，无需雇佣团队。",
-        "icon": "RiDownloadLine",
+        "title": "GPT Realtime 2 实时成本管控",
+        "description": "GPT Realtime 2 的定价为每百万音频输入令牌 32 美元、每百万音频输出令牌 64 美元。若缺乏合理的会话管理，成本可能迅速失控。RealtimeVoice 提供逐次会话成本追踪、自动令牌限制和内置成本计算器，让您在扩容前清楚掌握每次对话的费用。为每位用户或每次会话设置硬性消费上限，OpenAI 账单不再有意外。",
+        "icon": "RiLineChartLine",
         "image": {
-          "src": "/imgs/features/1.webp",
-          "alt": "涂鸦生成器 AI 优化街头艺术"
+          "src": "/imgs/features/2.webp",
+          "alt": "GPT Realtime 2 成本计算器与令牌追踪"
         },
         "buttons": [
           {
-            "title": "开始创作",
-            "url": "/#generator",
+            "title": "查看价格",
+            "url": "/#pricing",
             "variant": "default"
           },
           {
-            "title": "查看价格",
-            "url": "/#pricing",
+            "title": "成本计算器",
+            "url": "/#calculator",
             "variant": "outline"
           }
         ]
       },
       {
-        "title": "ShipFire 在线一键部署",
-        "description": "云托管确保 99.9% 的正常运行时间。全球 CDN 为全球用户提供快速访问。自动 SSL、域名绑定和 SEO 优化全部包含—零技术障碍，让创始人可以完全专注于产品。",
-        "icon": "RiDownloadLine",
+        "title": "工具调用与实时操作",
+        "description": "GPT Realtime 2 最强大的功能之一是并行工具调用——模型可在对话进行过程中同时触发多个操作，对话自然流畅不中断。RealtimeVoice 提供可视化工具构建器，帮助您连接 API、CRM、日历或数据库，GPT Realtime 2 在实时会话中自动调用这些工具。构建一个能够预约、查询库存或发送确认通知的语音代理——全程无需手动输入。",
+        "icon": "RiSettings3Line",
         "image": {
           "src": "/imgs/features/3.webp",
-          "alt": "ShipFire 一键部署到生产环境"
+          "alt": "GPT Realtime 2 工具调用配置"
         },
-        "buttons": [
+          "buttons": [
           {
-            "title": "开始创作",
-            "url": "/#generator",
+            "title": "体验演示",
+            "url": "/#demo",
             "variant": "default"
-          },
-          {
-            "title": "查看价格",
-            "url": "/#pricing",
-            "variant": "outline"
           }
         ]
       },
       {
-        "title": "ShipFire 50+ 专业模板",
-        "description": "50+ 针对 SaaS 优化的模板，涵盖工具、服务、社区等。每个模板都经过转化优化，支持拖拽自定义。选择模板、添加内容、一键上线—无需设计技能。",
-        "icon": "RiDownloadLine",
+        "title": "全渠道部署：电话、Web 与 App",
+        "description": "GPT Realtime 2 支持适用于浏览器的 WebRTC、适用于服务器管道的 WebSocket，以及适用于电话的 SIP 协议。RealtimeVoice 处理全部三种传输方式。在网站嵌入语音挂件、为来电部署电话号码，或集成到移动 App——使用同一套 GPT Realtime 2 代理配置即可完成。一次配置，覆盖所有渠道。",
+        "icon": "RiPhoneLine",
         "image": {
           "src": "/imgs/features/4.webp",
-          "alt": "ShipFire 专业模板库"
+          "alt": "GPT Realtime 2 多渠道部署"
         },
         "buttons": [
           {
-            "title": "开始创作",
-            "url": "/#generator",
+            "title": "立即开始",
+            "url": "/#demo",
             "variant": "default"
           },
           {
@@ -235,54 +214,54 @@
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么开发者选择 ShipFire",
-    "label": "Core Benefits",
-    "description": "零成本启动，具备专业级功能，让您的 SaaS 从第一天起就获胜。",
+    "title": "为什么团队选择 RealtimeVoice 部署 GPT Realtime 2",
+    "label": "核心优势",
+    "description": "GPT Realtime 2 功能强大，RealtimeVoice 让它无需庞大工程团队也能投入生产。",
     "items": [
       {
-        "title": "真正零成本",
-        "description": "ShipFire 100% 免费，无隐藏费用。在其他地方需要 $49–299/月的功能—无限页面、用户管理、支付集成、分析仪表板—在这里全部解锁。非常适合独立开发者，节省数千早期成本，让您可以投资于产品和营销。",
-        "icon": "RiStarLine",
+        "title": "节省数月基础设施搭建工作",
+        "description": "直接基于 GPT Realtime 2 API 构建，意味着需要处理 WebSocket 连接、音频流传输、打断检测、会话状态、令牌截断和错误恢复——每一项在生产环境中调试到位都需要数周时间。RealtimeVoice 将这一切开箱即用地交付给您。第一天即可获得久经考验的 GPT Realtime 2 集成方案，让您的团队专注于业务场景，而非底层管道。",
+        "icon": "RiTimeLine",
         "image": {
           "src": "/imgs/features/1.webp",
-          "alt": "真实的涂鸦生成器街头艺术预览"
+          "alt": "跳过 GPT Realtime 2 基础设施复杂性"
         },
         "buttons": [
           {
-            "title": "免费创建",
-            "url": "/#generator",
+            "title": "免费开始",
+            "url": "/#demo",
             "variant": "default"
           }
         ]
       },
       {
-        "title": "闪电般快速",
-        "description": "从创建账户到发布网站只需 3 分钟。从 50+ 个针对 SaaS 优化的模板中选择，自定义并发布。相比传统开发所需的 2–4 周，ShipFire 帮助您提前一个月进入市场。自动化工作流程处理更新和备份，让您可以专注于增长。",
-        "icon": "RiGiftLine",
+        "title": "每次通话都内置 GPT-5 级推理",
+        "description": "GPT Realtime 2 将 GPT-5 级推理能力带入实时语音领域，您的代理能理解复杂指令、从容应对错误、在不中断上下文的情况下处理打断，并在对话中执行多步骤工作流。Zillow 部署 GPT Realtime 2 后，在最高难度基准测试中通话成功率从 69% 提升至 95%，增幅达 26 个百分点。RealtimeVoice 让每家企业都能获得同等水准的模型能力。",
+        "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/1.webp",
-          "alt": "涂鸦生成器免费访问界面"
+          "src": "/imgs/features/2.webp",
+          "alt": "GPT Realtime 2 推理能力基准测试"
         },
         "buttons": [
           {
-            "title": "免费创建",
-            "url": "/#generator",
+            "title": "体验演示",
+            "url": "/#demo",
             "variant": "default"
           }
         ]
       },
       {
-        "title": "为全球扩张优化",
-        "description": "深刻理解面向全球的开发者的需求。支持 20+ 种语言，具有自动翻译、多币种支付和符合 GDPR 的数据处理。集成的 Google Analytics 和 Meta Pixel 帮助您跟踪海外表现。在 15 个地区拥有服务器，美国和欧洲的用户体验接近本地速度。",
-        "icon": "RiSpeedLine",
+        "title": "透明定价，无意外账单",
+        "description": "GPT Realtime 2 的令牌定价在上线前难以精确预测。RealtimeVoice 提供实时每次会话成本、每日消费摘要，以及基于您使用模式的预计月度费用。为每位用户设置限额、在触及阈值前收到邮件提醒，并导出账单数据供财务团队使用。成本可视化由您掌控——API 管理由我们负责。",
+        "icon": "RiMoneyDollarCircleLine",
         "image": {
-          "src": "/imgs/features/1.webp",
-          "alt": "涂鸦生成器简单工作流程截图"
+          "src": "/imgs/features/3.webp",
+          "alt": "GPT Realtime 2 账单管理面板"
         },
         "buttons": [
           {
-            "title": "免费创建",
-            "url": "/#generator",
+            "title": "查看价格方案",
+            "url": "/#pricing",
             "variant": "default"
           }
         ]
@@ -291,194 +270,178 @@
   },
   "usage": {
     "name": "usage",
-    "label": "HOW TO USE",
-    "title": "如何构建 ShipFire 网站",
-    "description": "通过三个简单步骤创建专业网站—完全在线，仅需180秒。",
+    "label": "使用流程",
+    "title": "三步使用 GPT Realtime 2 上线语音代理",
+    "description": "从注册到语音代理上线，全程不超过 10 分钟——无需搭建基础设施。",
     "items": [
       {
-        "title": "选择模板",
-        "description": "浏览50+精心制作的SaaS模板，涵盖工具、服务、社区等。每个模板都针对转化进行了优化—只需选择并开始自定义。",
+        "title": "配置您的 GPT Realtime 2 代理",
+        "description": "编写系统提示词，选择推理强度等级（从 minimal 到 xhigh），从 GPT Realtime 2 支持的音色中选择（包括 Cedar 和 Marin），并定义您的工具。RealtimeVoice 会验证您的配置并在部署前显示实时预览。",
         "icon": "RiEditLine"
       },
       {
-        "title": "自定义您的内容",
-        "description": "使用 ShipFire 在线编辑器修改文本、图像和颜色。AI助手根据您的产品类型建议文案和布局。即时预览更改。",
-        "icon": "RiPaletteLine"
+        "title": "连接工具与数据",
+        "description": "使用 RealtimeVoice 的可视化连接器接入 CRM、日历、数据库或任何 REST API。GPT Realtime 2 将在对话中自动调用这些工具，并在执行过程中向用户给出语音反馈。",
+        "icon": "RiPlugLine"
       },
       {
-        "title": "一键发布",
-        "description": "点击发布即可自动配置域名绑定、SSL证书和CDN部署。您的网站立即上线，更新同样轻松。",
-        "icon": "RiSettings3Line"
+        "title": "发布到目标渠道",
+        "description": "将您的 GPT Realtime 2 代理发布为网页挂件、电话号码或 API 端点。分享链接即可立即测试，然后嵌入网站或为来电路由——均可在同一仪表盘中完成。",
+        "icon": "RiSendPlaneLine"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "label": "FEATURES",
-    "title": "ShipFire 核心功能概览",
-    "description": "企业级功能，为独立开发者简化，推动您的产品增长。",
+    "label": "功能特性",
+    "title": "部署 GPT Realtime 2 代理所需的一切",
+    "description": "RealtimeVoice 处理 GPT Realtime 2 集成中的难点，让您专注于产品本身。",
     "items": [
       {
-        "title": "可视化编辑器",
-        "description": "拖放界面，实时预览。50+ 组件库让您无需设计技能即可创建自定义布局。",
-        "icon": "RiEyeLine"
+        "title": "可调节推理强度",
+        "description": "GPT Realtime 2 支持从 minimal 到 xhigh 的五档推理强度。RealtimeVoice 让您为每个代理设置默认值，并按会话动态覆盖——在延迟与智能之间找到适合您场景的平衡点。",
+        "icon": "RiBrainLine"
       },
       {
-        "title": "用户认证系统",
-        "description": "支持邮箱、Google、GitHub 等。自动管理权限和订阅层级。内置试用和升级流程将留存率提升 35%。",
-        "icon": "RiHdLine"
+        "title": "会话成本计算器",
+        "description": "在上线前预估 GPT Realtime 2 的费用。输入预期通话时长和通话量，RealtimeVoice 将显示预计令牌用量和月度 API 支出——让您从第一天起就清楚了解单位经济效益。",
+        "icon": "RiCalculatorLine"
       },
       {
-        "title": "支付集成",
-        "description": "与 Stripe 和 PayPal 集成。处理订阅计费、发票、退款等—让您摆脱后端复杂性。",
-        "icon": "RiLayoutLine"
+        "title": "打断与恢复处理",
+        "description": "GPT Realtime 2 原生支持打断处理，但生产环境的边缘情况需要额外逻辑。RealtimeVoice 内置了针对音频掉线、工具超时和用户输入模糊等场景的恢复流程，确保每次通话都顺畅进行。",
+        "icon": "RiRefreshLine"
       },
       {
-        "title": "分析仪表板",
-        "description": "实时跟踪用户行为、漏斗和收入趋势。清晰的可视化图表帮助您发现增长机会，将 ROI 提升高达 50%。",
-        "icon": "RiStarSLine"
+        "title": "多渠道部署",
+        "description": "通过单一配置，将同一个 GPT Realtime 2 代理部署到 Web（WebRTC）、服务器管道（WebSocket）和电话（SIP）。无需重复编写提示词，无需维护独立代码库。",
+        "icon": "RiPhoneLine"
       },
       {
-        "title": "自动 SEO 优化",
-        "description": "自动生成标题、描述和 schema 标记。自动提交到搜索引擎并优化加载速度以获得更高的 Google 排名。",
-        "icon": "RiCloudLine"
+        "title": "通话分析与转录",
+        "description": "每次 GPT Realtime 2 会话都记录完整转录文本、工具调用记录、延迟指标和成本明细。搜索、筛选并回放任何对话，持续优化代理表现。",
+        "icon": "RiBarChartLine"
       },
       {
-        "title": "电子邮件营销工具",
-        "description": "内置电子邮件发送，用于欢迎消息、产品更新、营销活动等。A/B 测试帮助您发现高性能文案，将打开率提高 45%。",
-        "icon": "RiShareLine"
-      }
-    ]
-  },
-  "stats": {
-    "name": "stats",
-    "label": "统计",
-    "title": "开发者信赖 ShipFire",
-    "description": "在全球范围内获得专业品质的网站构建和闪电般快速的部署。",
-    "icon": "RiHeartLine",
-    "items": [
-      {
-        "title": "信赖用户",
-        "label": "12,847+",
-        "description": "创作者"
-      },
-      {
-        "title": "生成图像",
-        "label": "89,432+",
-        "description": "微缩作品"
-      },
-      {
-        "title": "处理速度",
-        "label": "<10",
-        "description": "秒"
-      }
-    ]
-  },
-  "testimonial": {
-    "name": "testimonial",
-    "label": "推荐",
-    "title": "开发者对 ShipFire 的评价",
-    "description": "看看全球开发者如何使用 ShipFire 加速他们的业务。",
-    "icon": "RiThumbUpLine",
-    "items": [
-      {
-        "title": "Leo",
-        "label": "街头服饰品牌主",
-        "description": "我曾经花三周时间构建一个网站，只获得了不到 2% 的转化率。使用 ShipFire 免费版，我在 3 小时内重建了一切，达到了 8.5%。现在我的所有时间都用于产品开发。",
-        "image": {
-          "src": "/imgs/users/1.png"
-        }
-      },
-      {
-        "title": "Mei",
-        "label": "社交媒体经理",
-        "description": "我们的团队没有前端开发人员，Webflow 太贵了。改用 ShipFire 每年为我们节省了 $3,600，AI 优化识别了 5 个问题，使我们的 MRR 提升了 38%。",
-        "image": {
-          "src": "/imgs/users/2.png"
-        }
-      },
-      {
-        "title": "Robin",
-        "label": "视觉设计讲师",
-        "description": "AI 建议是我的最爱。上周它推荐了一个定价页面调整—应用后，我们的付费转化率从 4% 跃升至 6.2%，每月额外产生 $2,000。",
-        "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "艾玛·泰勒",
-        "label": "内容创作者",
-        "description": "我使用 ShipFire 为客户构建了 12 个落地页，每个大约 20 分钟。内置的 A/B 测试和分析简化了优化—客户 ROI 提高了 55%。",
-        "image": {
-          "src": "/imgs/users/6.png"
-        }
-      },
-      {
-        "title": "卡洛斯·马丁内斯",
-        "label": "T恤设计师",
-        "description": "我销售在线课程，WordPress 插件总是导致冲突。ShipFire 使我的网站速度提高了三倍，并使结账更加顺畅。退款下降了 70%—学生们喜欢这种体验。",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "Jasmine Lee",
-        "label": "活动组织者",
-        "description": "作为开发者，我不认为需要构建器，但 ShipFire 是免费的且功能强大。我用它验证了一个新的创业想法：从概念到上线 MVP 仅用了 4 小时。",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
+        "title": "团队协作与权限管理",
+        "description": "邀请团队成员共同构建和监控 GPT Realtime 2 代理。基于角色的权限控制让您决定谁能编辑提示词、查看通话记录或管理账单——适合代理商和企业团队使用。",
+        "icon": "RiTeamLine"
       }
     ]
   },
   "faq": {
     "name": "faq",
-    "label": "FAQ",
-    "title": "常见问题",
-    "description": "找不到问题的答案？请联系我们获取帮助。",
+    "label": "常见问题",
+    "title": "GPT Realtime 2 常见问题解答",
+    "description": "在 RealtimeVoice 上使用 GPT Realtime 2 构建之前，您需要了解的一切。",
     "buttons": [
       {
         "title": "联系我们",
-        "url": "/#contact",
+        "url": "mailto:hello@realtimevoice.app",
         "variant": "default"
       }
     ],
     "items": [
       {
-        "title": "ShipFire 免费吗？",
-        "description": "是的。ShipFire 提供永久免费计划，包括无限页面、用户管理、支付集成、分析等。无需信用卡，无隐藏费用。允许完全商业使用。"
+        "title": "什么是 GPT Realtime 2？",
+        "description": "GPT Realtime 2 是 OpenAI 于 2026 年 5 月发布的最新语音到语音模型，也是首款具备 GPT-5 级推理能力的实时语音模型。它支持 128K 上下文窗口、五档可调推理强度、并行工具调用和打断恢复功能，可通过 OpenAI Realtime API 的 WebRTC、WebSocket 和 SIP 协议调用。"
       },
       {
-        "title": "ShipFire Online 支持哪些平台？",
-        "description": "支持自定义域名、Vercel、Netlify 和其他主要托管平台。提供免费的 *.shipfire.app 子域名用于测试。SSL 和 CDN 自动配置以实现全球性能。"
+        "title": "GPT Realtime 2 的价格是多少？",
+        "description": "GPT Realtime 2 的定价为每百万音频输入令牌 32 美元、每百万音频输出令牌 64 美元，缓存输入令牌为每百万 0.40 美元。一次典型的 5 分钟对话大约消耗 5,000–8,000 个输出令牌，API 费用约为 0.32–0.51 美元。RealtimeVoice 的成本计算器帮助您在正式使用前进行预算估算。"
       },
       {
-        "title": "我可以在没有技术经验的情况下使用 ShipFire 吗？",
-        "description": "绝对可以。ShipFire 专为非技术用户设计，具有拖放编辑器、教程和提供实时指导的 AI 助手。数千名初学者已构建网站，平均学习时间不到 30 分钟。"
+        "title": "我需要自己的 OpenAI API 密钥吗？",
+        "description": "是的。RealtimeVoice 连接到您自己的 OpenAI 账户，让您完全掌控 API 用量和账单。我们绝不通过自己的 OpenAI 密钥代理您的流量——您的数据直接在您的应用程序和 OpenAI 之间传输。"
       },
       {
-        "title": "我可以将 ShipFire 网站用于商业目的吗？",
-        "description": "可以。使用 ShipFire 构建的网站完全可用于商业，包括销售产品、订阅和广告。没有许可限制或收入分成。"
+        "title": "GPT Realtime 2 与 GPT Realtime 1.5 有何不同？",
+        "description": "GPT Realtime 2 新增了 GPT-5 级推理能力，将上下文窗口从 32K 扩展至 128K 令牌，引入了可调推理强度（minimal 到 xhigh），支持带语音反馈的并行工具调用，并在 Big Bench Audio 基准测试中获得高 15.2% 的评分。对于生产级语音代理，在指令遵循和工具可靠性方面的提升尤为显著。"
       },
       {
-        "title": "我可以导出或迁移我的 ShipFire 网站吗？",
-        "description": "可以，您可以导出完整的网站代码，包括 HTML、CSS 和配置文件。您可以随时迁移到自己的服务器。用户和订单数据也可以导出为 CSV 以实现完全的数据所有权。"
+        "title": "GPT Realtime 2 最适合哪些应用场景？",
+        "description": "GPT Realtime 2 在联系中心自动化、预约管理、现场服务支持、语言学习、医疗问诊，以及任何需要在通话中实时采取行动的工作流场景中表现卓越。对于简单问答机器人，使用更低成本的纯转录模型更为合适。"
       },
       {
-        "title": "ShipFire 的 AI 功能可以做什么？",
-        "description": "AI 助手优化文案，建议布局改进，分析用户行为，并预测转化瓶颈。它支持 SEO 优化、A/B 测试生成和电子邮件内容创建—基于 50,000+ 网站的数据训练，推荐准确率达 92%。"
+        "title": "GPT Realtime 2 能处理电话通话吗？",
+        "description": "可以。GPT Realtime 2 原生支持 SIP 连接，支持入站和出站电话。RealtimeVoice 提供电话号码配置和 SIP 中继设置，让您无需管理自己的电话基础设施，即可在真实电话线路上部署 GPT Realtime 2 代理。"
+      },
+      {
+        "title": "GPT Realtime 2 支持哪些语言？",
+        "description": "GPT Realtime 2 原生支持多语言对话。配套的 GPT Realtime Translate 模型支持 70 多种输入语言到 13 种输出语言的实时语音翻译。RealtimeVoice 同时支持这两种模型，无论您需要对话代理还是实时口译，均可满足需求。"
+      },
+      {
+        "title": "上线一个 GPT Realtime 2 代理需要多久？",
+        "description": "大多数用户在注册后 10 分钟内即可运行起一个 GPT Realtime 2 代理。带有自定义工具和电话集成的生产部署通常需要 1–2 天。RealtimeVoice 为常见应用场景提供了入门模板，让您无需从空白提示词开始。"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "早期用户",
+    "title": "开发者如何评价 RealtimeVoice 上的 GPT Realtime 2",
+    "description": "正在用 GPT Realtime 2 打造真实产品的开发者和团队。",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Marcus T.",
+        "label": "AI 客服创业公司创始人",
+        "description": "我花了三周时间直接基于 GPT Realtime 2 API 构建——光是会话管理就让人头疼不已。RealtimeVoice 把这个过程缩短到了一个下午。第二天我们就为第一个客户的电话代理正式上线了。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Yuki S.",
+        "label": "SaaS 公司产品负责人",
+        "description": "成本计算器是打动我的第一个功能。GPT Realtime 2 的定价很难在上线前预测，我们需要在承诺使用前弄清楚单位经济效益。RealtimeVoice 精确地告诉了我们大规模使用时每次通话的成本。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Daniel R.",
+        "label": "独立开发者",
+        "description": "我为一家牙科诊所构建了一个 GPT Realtime 2 语音代理——电话预约全自动化。RealtimeVoice 的工具调用设置只花了 20 分钟。现在这家诊所 60% 的来电都无需人工处理。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Priya M.",
+        "label": "医疗科技公司 CTO",
+        "description": "GPT Realtime 2 对医疗术语的理解能力确实令人印象深刻。我们需要一个能处理医疗词汇且不出现幻觉的问诊代理。RealtimeVoice 针对医疗场景的提示词模板让我们立即有了一个扎实的基础。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Tom W.",
+        "label": "数字代理商负责人",
+        "description": "我们现在将 GPT Realtime 2 语音代理作为一项服务提供给客户。RealtimeVoice 的团队协作和白标选项让我们能够从一个仪表盘管理 12 个独立的代理部署。语音 AI 业务现在占我们代理商收入的 30%。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Sofia L.",
+        "label": "电商运营经理",
+        "description": "我们的客服团队深陷重复性电话的泥潭。通过 RealtimeVoice 部署 GPT Realtime 2 代理后，第一个月就转移了 45% 的入站量。通话满意度评分反而提升了。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "今天就开始使用 ShipFire 构建",
-    "description": "无需信用卡。无需技术技能。3 分钟内构建专业网站。加入 50,000+ 全球开发者，触达全球用户。所有核心功能永久免费。",
+    "title": "立即开始使用 GPT Realtime 2 构建",
+    "description": "RealtimeVoice 为 GPT Realtime 2 语音代理提供生产就绪的平台——无需基础设施、无意外账单、无需数月搭建。免费注册，10 分钟内部署您的第一个代理，亲身体验为什么 GPT Realtime 2 是团队期待已久的语音模型。",
     "buttons": [
       {
-        "title": "立即开始创建",
-        "icon": "RiGiftLine",
-        "url": "/#generator",
+        "title": "免费试用 GPT Realtime 2",
+        "icon": "RiMicLine",
+        "url": "/#demo",
         "target": "_self",
         "variant": "default"
       }
@@ -487,28 +450,32 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipFire",
-      "description": "ShipFire 是一个面向全球独立开发者的 SaaS 网站构建平台。零代码，48 小时内发布产品，内置 AI 优化工具。",
+      "title": "RealtimeVoice",
+      "description": "RealtimeVoice 是基于 GPT Realtime 2 构建和部署语音代理的生产级平台，专为希望利用 OpenAI 最新语音模型且无需处理基础设施复杂性的开发者和企业而设计。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipFire"
+        "alt": "RealtimeVoice"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipFire. 版权所有。",
+    "copyright": "© 2026 • RealtimeVoice. 版权所有。",
     "nav": {
       "items": [
         {
-          "title": "关于",
-          "url": "/about"
+          "title": "演示体验",
+          "url": "/#demo"
         },
         {
-          "title": "资源",
-          "url": "/#features"
+          "title": "价格方案",
+          "url": "/#pricing"
         },
         {
-          "title": "朋友",
-          "url": "/#usage"
+          "title": "资源文档",
+          "url": "/#faq"
+        },
+        {
+          "title": "联系我们",
+          "url": "mailto:hello@realtimevoice.app"
         }
       ]
     },
@@ -517,32 +484,24 @@
         {
           "title": "X",
           "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipfire",
+          "url": "https://x.com/realtimevoice",
           "target": "_blank"
         },
         {
           "title": "Github",
           "icon": "RiGithubFill",
-          "url": "https://github.com/shipfire",
+          "url": "https://github.com/realtimevoice",
           "target": "_blank"
         },
         {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/shipfire",
-          "target": "_blank"
-        },
-        {
-          "title": "邮箱",
+          "title": "邮件",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipfire.com",
+          "url": "mailto:hello@realtimevoice.app",
           "target": "_self"
         }
       ]
     },
-    "badges": [
-      
-    ],
+    "badges": [],
     "agreement": {
       "items": [
         {

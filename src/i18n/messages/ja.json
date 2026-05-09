@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "title": "GPT Realtime 2 音声エージェントプラットフォーム — RealtimeVoice",
+    "description": "GPT Realtime 2を使って音声エージェントを数分で構築・デプロイ。インフラ不要、透明なコスト管理、Web・電話・アプリへのマルチチャンネル展開。今すぐ無料でお試しください。",
+    "keywords": "GPT Realtime 2, GPT Realtime 2 API, GPT Realtime 2 音声エージェント, OpenAI リアルタイムAPI, リアルタイム音声AI, 音声エージェントビルダー, AI電話エージェント, 音声認識AI, GPT Realtime 2 料金, 音声エージェント構築"
+  },
+  "user": {
+    "sign_in": "ログイン",
+    "sign_out": "ログアウト",
+    "credits": "クレジット",
+    "api_keys": "APIキー",
+    "my_orders": "注文履歴",
+    "user_center": "ユーザーセンター"
+  },
+  "sign_modal": {
+    "sign_in_title": "ログイン",
+    "sign_in_description": "アカウントにログイン",
+    "sign_up_title": "新規登録",
+    "sign_up_description": "アカウントを作成",
+    "email_title": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力してください",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "forgot_password": "パスワードをお忘れですか？",
+    "or": "または",
+    "continue": "続ける",
+    "no_account": "アカウントをお持ちでない方",
+    "email_sign_in": "メールでログイン",
+    "google_sign_in": "Googleでログイン",
+    "github_sign_in": "GitHubでログイン",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル"
+  },
+  "my_orders": {
+    "title": "注文履歴",
+    "description": "RealtimeVoiceでの注文一覧",
+    "no_orders": "注文が見つかりません",
+    "tip": "",
+    "activate_order": "注文を有効化",
+    "actived": "有効化済み",
+    "join_discord": "Discordに参加",
+    "read_docs": "ドキュメントを読む",
+    "table": {
+      "order_no": "注文番号",
+      "email": "メールアドレス",
+      "product_name": "商品名",
+      "amount": "金額",
+      "paid_at": "支払日時",
+      "github_username": "GitHubユーザー名",
+      "status": "ステータス"
+    }
+  },
+  "my_credits": {
+    "title": "クレジット残高",
+    "left_tip": "残りクレジット: {left_credits}",
+    "no_credits": "クレジット履歴なし",
+    "recharge": "チャージ",
+    "table": {
+      "trans_no": "取引番号",
+      "trans_type": "取引種別",
+      "credits": "クレジット",
+      "updated_at": "更新日時",
+      "status": "ステータス"
+    }
+  },
+  "api_keys": {
+    "title": "APIキー",
+    "tip": "APIキーは安全に保管し、漏洩を防いでください",
+    "no_api_keys": "APIキーなし",
+    "create_api_key": "APIキーを作成",
+    "table": {
+      "name": "名前",
+      "key": "キー",
+      "created_at": "作成日時"
+    },
+    "form": {
+      "name": "名前",
+      "name_placeholder": "APIキー名",
+      "submit": "送信"
+    }
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "最新記事、チュートリアル、プロダクトアップデート",
+    "no_posts": "まだ投稿がありません。お楽しみに！",
+    "read_more_text": "続きを読む",
+    "tools_notice": {
+      "text": "実践的なツールをお探しですか？チュートリアルの他にも、",
+      "link_text": "RealtimeVoiceトップページ",
+      "suffix": "で完全なツールスイートをご利用いただけます。"
+    }
+  },
+  "my_invites": {
+    "title": "招待履歴",
+    "description": "招待記録を確認",
+    "no_invites": "招待記録が見つかりません",
+    "my_invite_link": "招待リンク",
+    "edit_invite_link": "招待リンクを編集",
+    "copy_invite_link": "招待リンクをコピー",
+    "invite_code": "招待コード",
+    "invite_tip": "友達を1人招待して一緒に利用しましょう。",
+    "invite_balance": "招待報酬残高",
+    "total_invite_count": "招待合計数",
+    "total_paid_count": "支払済み合計数",
+    "total_award_amount": "報酬合計額",
+    "update_invite_code": "招待コードを設定",
+    "update_invite_code_tip": "カスタム招待コードを入力してください",
+    "update_invite_button": "保存",
+    "no_orders": "招待するには先にRealtimeVoiceを利用してください",
+    "no_affiliates": "招待権限がありません。お問い合わせください。",
+    "table": {
+      "invite_time": "招待日時",
+      "invite_user": "招待ユーザー",
+      "status": "ステータス",
+      "reward_percent": "報酬率",
+      "reward_amount": "報酬額",
+      "pending": "未支払い",
+      "completed": "支払済み"
+    }
+  },
+  "feedback": {
+    "title": "フィードバック",
+    "description": "ご意見・ご要望をお聞かせください。",
+    "submit": "送信",
+    "loading": "送信中...",
+    "contact_tip": "その他のお問い合わせ方法",
+    "rating_tip": "{project}についてどう思いますか？",
+    "placeholder": "こちらにご意見をお書きください..."
+  },
+  "share": {
+    "title": "このサイトをシェア",
+    "text": "RealtimeVoiceでGPT Realtime 2音声エージェントを構築しました！あなたも試してみてください：",
+    "preparing": "シェアの準備中...",
+    "success": "リンクをクリップボードにコピーしました！",
+    "failed": "リンクのコピーに失敗しました",
+    "uploading": "シェアの準備中...",
+    "platforms": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "linkedin": "LinkedIn",
+      "pinterest": "Pinterest",
+      "whatsapp": "WhatsApp",
+      "telegram": "Telegram",
+      "reddit": "Reddit",
+      "copy": "コピー"
+    }
+  },
+  "payment": {
+    "modal": {
+      "title": "プランを選択",
+      "description": "アップグレードしてより多くの機能をご利用ください",
+      "most_popular": "最人気",
+      "credits": "クレジット",
+      "month": "月",
+      "year": "年",
+      "processing": "処理中...",
+      "select_plan": "このプランを選択",
+      "international_payment": "国際決済",
+      "china_payment": "Alipay/WeChat Pay",
+      "stripe_payment": "Stripe決済",
+      "creem_payment": "Creem決済"
+    }
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "RealtimeVoice",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "RealtimeVoice - GPT Realtime 2 音声エージェントプラットフォーム"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "ホーム",
+          "url": "/",
+          "icon": "RiHomeLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": false,
+    "show_theme": false,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "GPT Realtime 2 で本番音声エージェントを構築",
+    "highlight_text": "GPT Realtime 2",
+    "description": "RealtimeVoice は GPT Realtime 2 を搭載したすぐに展開できる音声エージェントプラットフォームです。OpenAI 最高水準のスピーチツースピーチモデルを活用し、インフラ構築不要、複雑な課金設定も不要。ユースケースを接続するだけで、数分以内に本番環境へ。",
+    "announcement": {
+      "label": "リリース",
+      "title": "GPT Realtime 2 API が一般提供開始",
+      "url": "/blog/gpt-realtime-2-guide"
+    },
+    "images": [
+      {
+        "src": "/imgs/features/1.webp",
+        "alt": "RealtimeVoice GPT Realtime 2 音声エージェントデモ",
+        "title": "GPT Realtime 2 搭載のライブ音声エージェント"
+      },
+      {
+        "src": "/imgs/features/2.webp",
+        "alt": "GPT Realtime 2 API ダッシュボード",
+        "title": "GPT Realtime 2 コストとセッション管理"
+      }
+    ],
+    "layout": "left-image-right-content",
+    "variant": "compact",
+    "enable_carousel": true,
+    "buttons": [
+      {
+        "title": "GPT Realtime 2 を無料で試す",
+        "icon": "RiMicLine",
+        "url": "/#demo",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "料金を見る",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "secondary"
+      }
+    ],
+    "metrics": [
+      "GPT Realtime 2 搭載",
+      "クレジットカード不要"
+    ],
+    "stats": [
+      {
+        "value": "128K",
+        "label": "コンテキストウィンドウ",
+        "icon": "RiBrainLine"
+      },
+      {
+        "value": "70+",
+        "label": "対応言語数",
+        "icon": "RiTranslate2"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": true
+  },
+  "branding": {
+    "title": "OpenAI の GPT Realtime 2 インフラ上に構築",
+    "items": [
+      {
+        "title": "OpenAI",
+        "image": {
+          "src": "/imgs/logos/openai.svg",
+          "alt": "OpenAI GPT Realtime 2"
+        }
+      },
+      {
+        "title": "WebRTC",
+        "image": {
+          "src": "/imgs/logos/webrtc.svg",
+          "alt": "WebRTC"
+        }
+      },
+      {
+        "title": "Stripe",
+        "image": {
+          "src": "/imgs/logos/stripe.svg",
+          "alt": "Stripe"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      },
+      {
+        "title": "Cloudflare",
+        "image": {
+          "src": "/imgs/logos/cloudflare.svg",
+          "alt": "Cloudflare"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "RealtimeVoice とは",
+    "label": "概要",
+    "description": "RealtimeVoice は、開発者や企業がインフラ管理、トークン課金、WebSocket 接続の実装を一切不要にしながら、GPT Realtime 2 を使った音声エージェントを展開できる SaaS プラットフォームです。",
+    "image": {
+      "src": "/imgs/features/1.webp"
+    },
+    "items": [
+      {
+        "title": "GPT Realtime 2 音声エージェントを数分で稼働",
+        "description": "GPT Realtime 2 は、GPT-5 クラスの推論能力を持つ OpenAI 初のリアルタイム音声モデルです。ライブ会話中に聞き取り、考え、ツールを呼び出し、応答することができます。RealtimeVoice は GPT Realtime 2 API を本番対応プラットフォームにラップし、WebSocket の配管、トークン予算管理、セッション状態管理の手間を省きます。システムプロンプトを貼り付け、音声を選んで、エージェントをすぐに公開できます。",
+        "icon": "RiMicLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "GPT Realtime 2 音声エージェントのセットアップ"
+        },
+        "buttons": [
+          {
+            "title": "デモを試す",
+            "url": "/#demo",
+            "variant": "default"
+          },
+          {
+            "title": "ガイドを読む",
+            "url": "/blog/gpt-realtime-2-guide",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "GPT Realtime 2 のコストをリアルタイムで管理",
+        "description": "GPT Realtime 2 の料金は音声入力トークン 100 万件あたり 32 ドル、音声出力トークン 100 万件あたり 64 ドルです。適切なセッション管理なしでは、コストが急増する可能性があります。RealtimeVoice はセッション単位のコスト追跡、自動トークン制限、組み込みコスト計算ツールを提供し、スケールアップ前に各会話のコストを把握できます。ユーザーまたはセッションごとに支出上限を設定し、OpenAI の請求で驚くことはありません。",
+        "icon": "RiLineChartLine",
+        "image": {
+          "src": "/imgs/features/2.webp",
+          "alt": "GPT Realtime 2 コスト計算とトークン追跡"
+        },
+        "buttons": [
+          {
+            "title": "料金を見る",
+            "url": "/#pricing",
+            "variant": "default"
+          },
+          {
+            "title": "コスト計算",
+            "url": "/#calculator",
+            "variant": "outline"
+          }
+        ]
+      },
+      {
+        "title": "ツール呼び出しとリアルタイムアクション",
+        "description": "GPT Realtime 2 の最も強力な機能の一つが並列ツール呼び出しです。会話を自然に続けながら、モデルが複数のアクションを同時にトリガーできます。RealtimeVoice はビジュアルツールビルダーを提供し、API、CRM、カレンダー、データベースを接続できます。GPT Realtime 2 はライブセッション中に自動的にこれらを呼び出します。予約、在庫照会、確認送信を行う音声エージェントを、タイピングなしで構築できます。",
+        "icon": "RiSettings3Line",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "GPT Realtime 2 ツール呼び出し設定"
+        },
+          "buttons": [
+          {
+            "title": "デモを試す",
+            "url": "/#demo",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "電話・Web・アプリへのマルチチャンネル展開",
+        "description": "GPT Realtime 2 はブラウザ向け WebRTC、サーバーパイプライン向け WebSocket、電話向け SIP をサポートします。RealtimeVoice は 3 つのトランスポートすべてに対応しています。Web サイトに音声ウィジェットを埋め込み、着信用に電話番号を設定し、モバイルアプリに統合する——すべて同じ GPT Realtime 2 エージェント設定を使って実現できます。一度設定すれば、あらゆるチャンネルに対応できます。",
+        "icon": "RiPhoneLine",
+        "image": {
+          "src": "/imgs/features/4.webp",
+          "alt": "GPT Realtime 2 マルチチャンネル展開"
+        },
+        "buttons": [
+          {
+            "title": "今すぐ始める",
+            "url": "/#demo",
+            "variant": "default"
+          },
+          {
+            "title": "料金を見る",
+            "url": "/#pricing",
+            "variant": "outline"
+          }
+        ]
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "チームが GPT Realtime 2 に RealtimeVoice を選ぶ理由",
+    "label": "主なメリット",
+    "description": "GPT Realtime 2 は強力です。RealtimeVoice は大規模なエンジニアチームなしで本番運用を可能にします。",
+    "items": [
+      {
+        "title": "数ヶ月のインフラ構築をスキップ",
+        "description": "GPT Realtime 2 API に直接構築するということは、WebSocket 接続、音声ストリーミング、割り込み検出、セッション状態、トークントランケーション、エラーリカバリーを処理することを意味します。それぞれが本番環境で正常動作するまでに数週間かかる可能性があります。RealtimeVoice はこれらすべてをすぐに使える状態で提供します。初日から実績のある GPT Realtime 2 統合を手に入れ、チームはユースケースに集中できます。",
+        "icon": "RiTimeLine",
+        "image": {
+          "src": "/imgs/features/1.webp",
+          "alt": "GPT Realtime 2 インフラの複雑さをスキップ"
+        },
+        "buttons": [
+          {
+            "title": "無料で始める",
+            "url": "/#demo",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "すべての通話に GPT-5 クラスの推論",
+        "description": "GPT Realtime 2 はライブ音声に GPT-5 クラスの推論をもたらします。エージェントは複雑な指示を理解し、エラーから優雅に回復し、コンテキストを壊さずに割り込みを処理し、会話中のマルチステップワークフローに従います。Zillow は GPT Realtime 2 を展開した後、最難関ベンチマークで通話成功率が 69% から 95% へと 26 ポイント向上したと報告しています。RealtimeVoice はすべてのビジネスに同じモデルの品質へのアクセスを提供します。",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/features/2.webp",
+          "alt": "GPT Realtime 2 推論品質ベンチマーク"
+        },
+        "buttons": [
+          {
+            "title": "デモを試す",
+            "url": "/#demo",
+            "variant": "default"
+          }
+        ]
+      },
+      {
+        "title": "透明な料金体系、サプライズなし",
+        "description": "GPT Realtime 2 のトークン料金は本番公開前に予測しにくい場合があります。RealtimeVoice はセッションごとのリアルタイムコスト、日次支出サマリー、使用パターンに基づく月次予測コストを表示します。ユーザーごとの制限設定、しきい値に達する前のメールアラート、財務チーム向けの請求データエクスポートが可能です。コストの可視性はお客様が管理し、API はお任せください。",
+        "icon": "RiMoneyDollarCircleLine",
+        "image": {
+          "src": "/imgs/features/3.webp",
+          "alt": "GPT Realtime 2 課金ダッシュボード"
+        },
+        "buttons": [
+          {
+            "title": "料金プランを見る",
+            "url": "/#pricing",
+            "variant": "default"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "label": "使い方",
+    "title": "3 ステップで GPT Realtime 2 エージェントを公開",
+    "description": "サインアップからライブ音声エージェントまで 10 分以内——インフラ不要。",
+    "items": [
+      {
+        "title": "GPT Realtime 2 エージェントを設定",
+        "description": "システムプロンプトを作成し、推論強度レベル（minimal から xhigh まで）を選択し、Cedar や Marin を含む GPT Realtime 2 の音声から選び、ツールを定義します。RealtimeVoice は設定を検証し、展開前にライブプレビューを表示します。",
+        "icon": "RiEditLine"
+      },
+      {
+        "title": "ツールとデータを接続",
+        "description": "RealtimeVoice のビジュアルコネクターを使って CRM、カレンダー、データベース、または任意の REST API を連携します。GPT Realtime 2 は会話中に自動的にこれらのツールを呼び出し、実行中にユーザーへ音声フィードバックを提供します。",
+        "icon": "RiPlugLine"
+      },
+      {
+        "title": "チャンネルに展開",
+        "description": "GPT Realtime 2 エージェントを Web ウィジェット、電話番号、または API エンドポイントとして公開します。リンクを共有してすぐにテストし、サイトに埋め込むか着信ルーティングを設定——すべて同じダッシュボードから行えます。",
+        "icon": "RiSendPlaneLine"
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "label": "機能",
+    "title": "GPT Realtime 2 エージェントを出荷するために必要なすべて",
+    "description": "RealtimeVoice が GPT Realtime 2 統合の難しい部分を処理し、プロダクトに集中できます。",
+    "items": [
+      {
+        "title": "調整可能な推論強度",
+        "description": "GPT Realtime 2 は minimal から xhigh まで 5 段階の推論レベルをサポートします。RealtimeVoice ではエージェントごとにデフォルトを設定し、セッションごとに動的にオーバーライドできます——特定のユースケースに合わせてレイテンシとインテリジェンスのバランスを取れます。",
+        "icon": "RiBrainLine"
+      },
+      {
+        "title": "セッションコスト計算ツール",
+        "description": "公開前に GPT Realtime 2 のコストを見積もります。予想通話時間と件数を入力すると、RealtimeVoice が予測トークン使用量と月次 API 支出を表示します——初日からユニットエコノミクスを明確にできます。",
+        "icon": "RiCalculatorLine"
+      },
+      {
+        "title": "割り込みとリカバリー処理",
+        "description": "GPT Realtime 2 は割り込みをネイティブに処理しますが、本番のエッジケースには追加ロジックが必要です。RealtimeVoice は音声ドロップ、ツールタイムアウト、曖昧なユーザー入力に対応する事前構築されたリカバリーフローを提供します——すべての通話を軌道に乗せ続けます。",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "マルチチャンネル展開",
+        "description": "単一の設定から同じ GPT Realtime 2 エージェントを Web（WebRTC）、サーバーパイプライン（WebSocket）、電話（SIP）に展開できます。プロンプトの重複なし、別々のコードベースなし。",
+        "icon": "RiPhoneLine"
+      },
+      {
+        "title": "通話分析とトランスクリプト",
+        "description": "すべての GPT Realtime 2 セッションは完全なトランスクリプト、ツール呼び出し記録、レイテンシメトリクス、コスト内訳とともにログに記録されます。検索、フィルター、任意の会話を再生してエージェントのパフォーマンスを継続的に改善できます。",
+        "icon": "RiBarChartLine"
+      },
+      {
+        "title": "チームアクセスと権限管理",
+        "description": "チームメンバーを招待して GPT Realtime 2 エージェントを共同構築・監視できます。ロールベースの権限で、プロンプト編集、通話ログへのアクセス、課金管理ができるユーザーを制御できます——エージェンシーや企業チームに適しています。",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "よくある質問",
+    "title": "GPT Realtime 2 についてよくある質問",
+    "description": "RealtimeVoice で GPT Realtime 2 を使って構築する前に知っておくべきこと。",
+    "buttons": [
+      {
+        "title": "お問い合わせ",
+        "url": "mailto:hello@realtimevoice.app",
+        "variant": "default"
+      }
+    ],
+    "items": [
+      {
+        "title": "GPT Realtime 2 とは何ですか？",
+        "description": "GPT Realtime 2 は 2026 年 5 月にリリースされた OpenAI の最新スピーチツースピーチモデルです。GPT-5 クラスの推論能力を持つ初のリアルタイム音声モデルで、128K コンテキストウィンドウ、5 段階の調整可能な推論強度、並列ツール呼び出し、割り込みリカバリーをサポートしています。OpenAI の Realtime API を通じて WebRTC、WebSocket、SIP でご利用いただけます。"
+      },
+      {
+        "title": "GPT Realtime 2 の料金はいくらですか？",
+        "description": "GPT Realtime 2 の料金は音声入力トークン 100 万件あたり 32 ドル、音声出力トークン 100 万件あたり 64 ドル、キャッシュ済み入力トークンは 100 万件あたり 0.40 ドルです。典型的な 5 分間の会話では約 5,000〜8,000 出力トークンを消費し、API コストは約 0.32〜0.51 ドルです。RealtimeVoice のコスト計算ツールで事前に試算できます。"
+      },
+      {
+        "title": "自分の OpenAI API キーが必要ですか？",
+        "description": "はい。RealtimeVoice はお客様自身の OpenAI アカウントに接続するため、API 使用量と課金を完全にコントロールできます。当社はお客様のトラフィックを自社の OpenAI キーでプロキシすることは一切ありません——データはお客様のアプリケーションと OpenAI の間で直接やり取りされます。"
+      },
+      {
+        "title": "GPT Realtime 2 と GPT Realtime 1.5 の違いは何ですか？",
+        "description": "GPT Realtime 2 は GPT-5 クラスの推論を追加し、コンテキストウィンドウを 32K から 128K トークンに拡大し、調整可能な推論強度（minimal から xhigh）を導入し、音声フィードバック付き並列ツール呼び出しをサポートし、Big Bench Audio ベンチマークで 15.2% 高いスコアを達成しています。本番音声エージェントでは、指示追従とツール信頼性の向上が特に顕著です。"
+      },
+      {
+        "title": "GPT Realtime 2 が最も適しているユースケースは何ですか？",
+        "description": "GPT Realtime 2 はコンタクトセンター自動化、予約管理、フィールドサービスサポート、語学学習、ヘルスケア受付、そして話すことがタイピングより速く、エージェントが通話中にリアルアクションを取る必要があるあらゆるワークフローに優れています。シンプルな FAQ ボットには、より安価な文字起こしのみのモデルが適しています。"
+      },
+      {
+        "title": "GPT Realtime 2 は電話通話に対応できますか？",
+        "description": "はい。GPT Realtime 2 は SIP 接続をネイティブにサポートし、着信・発信の電話を可能にします。RealtimeVoice は電話番号のプロビジョニングと SIP トランク設定を提供するため、自社の電話インフラを管理することなく、実際の電話回線に GPT Realtime 2 エージェントを展開できます。"
+      },
+      {
+        "title": "GPT Realtime 2 はどの言語をサポートしていますか？",
+        "description": "GPT Realtime 2 は多言語会話をネイティブに処理します。companion の GPT Realtime Translate モデルは 70 以上の入力言語から 13 の出力言語へのライブ音声翻訳をサポートします。RealtimeVoice は会話エージェントと通訳のどちらが必要かに応じて両方のモデルに対応しています。"
+      },
+      {
+        "title": "GPT Realtime 2 エージェントをどのくらい早く稼働させられますか？",
+        "description": "ほとんどのユーザーはサインアップから 10 分以内に動作する GPT Realtime 2 エージェントを起動できます。カスタムツールと電話統合を備えた本番展開は通常 1〜2 日かかります。RealtimeVoice は一般的なユースケース向けのスターターテンプレートを提供するため、空のプロンプトから始める必要はありません。"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "ユーザーの声",
+    "title": "RealtimeVoice の GPT Realtime 2 についてビルダーが語ること",
+    "description": "GPT Realtime 2 で実際のプロダクトを出荷している開発者とチーム。",
+    "icon": "RiThumbUpLine",
+    "items": [
+      {
+        "title": "Marcus T.",
+        "label": "AI カスタマーサポートスタートアップ創業者",
+        "description": "GPT Realtime 2 API に直接構築しようとして 3 週間かかりました——セッション管理だけで悪夢でした。RealtimeVoice はそれを午後一つに短縮してくれました。翌日には最初のクライアントの電話エージェントを公開できました。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Yuki S.",
+        "label": "SaaS 企業プロダクトリード",
+        "description": "最初に気に入ったのはコスト計算ツールでした。GPT Realtime 2 の料金は予測しにくく、コミットする前にユニットエコノミクスを把握する必要がありました。RealtimeVoice はスケール時の各通話のコストを正確に示してくれました。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Daniel R.",
+        "label": "個人開発者",
+        "description": "歯科クリニック向けに GPT Realtime 2 音声エージェントを構築しました——電話での予約受付を完全自動化しました。RealtimeVoice のツール呼び出し設定は 20 分で完了。クリニックは今や着信の 60% をスタッフなしで処理しています。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Priya M.",
+        "label": "ヘルスケアテック CTO",
+        "description": "GPT Realtime 2 の医療用語理解は本当に印象的です。幻覚なしで医療用語を処理できる受付エージェントが必要でした。RealtimeVoice のヘルスケア向けプロンプトテンプレートがすぐに強固なベースラインを提供してくれました。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Tom W.",
+        "label": "エージェンシーオーナー",
+        "description": "今ではクライアントに GPT Realtime 2 音声エージェントをサービスとして提供しています。RealtimeVoice のチームアクセスとホワイトラベルオプションにより、1 つのダッシュボードから 12 の別々のエージェント展開を管理することが可能になりました。音声 AI からの収益はエージェンシー収入の 30% を占めています。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Sofia L.",
+        "label": "EC 運営マネージャー",
+        "description": "カスタマーサービスチームが繰り返しの電話に埋もれていました。RealtimeVoice を通じて GPT Realtime 2 エージェントを展開した後、最初の月に着信量の 45% を転換できました。通話満足度スコアは実際に上がりました。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "今すぐ GPT Realtime 2 で構築を始める",
+    "description": "RealtimeVoice は GPT Realtime 2 音声エージェントのための本番対応プラットフォームを提供します——インフラ不要、料金サプライズなし、数ヶ月のセットアップ不要。無料サインアップで 10 分以内に最初のエージェントを展開し、GPT Realtime 2 がチームが待ち望んでいた音声モデルである理由を実感してください。",
+    "buttons": [
+      {
+        "title": "GPT Realtime 2 を無料で試す",
+        "icon": "RiMicLine",
+        "url": "/#demo",
+        "target": "_self",
+        "variant": "default"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "RealtimeVoice",
+      "description": "RealtimeVoice は GPT Realtime 2 を使った音声エージェントの構築と展開のための本番プラットフォームです。OpenAI の最新音声モデルの力をインフラの複雑さなしに活用したい開発者とビジネスのために設計されています。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "RealtimeVoice"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • RealtimeVoice. All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "プロダクト",
+          "children": [
+            {
+              "title": "デモ",
+              "url": "/#demo"
+            },
+            {
+              "title": "料金",
+              "url": "/#pricing"
+            },
+            {
+              "title": "コスト計算",
+              "url": "/#calculator"
+            }
+          ]
+        },
+        {
+          "title": "リソース",
+          "children": [
+            {
+              "title": "よくある質問",
+              "url": "/#faq"
+            }
+          ]
+        },
+        {
+          "title": "会社情報",
+          "children": [
+            {
+              "title": "お問い合わせ",
+              "url": "mailto:hello@realtimevoice.app"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/realtimevoice",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/realtimevoice",
+          "target": "_blank"
+        },
+        {
+          "title": "メール",
+          "icon": "RiMailLine",
+          "url": "mailto:hello@realtimevoice.app",
+          "target": "_self"
+        }
+      ]
+    },
+    "badges": [],
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}
