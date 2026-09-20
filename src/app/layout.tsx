@@ -62,7 +62,14 @@ export default async function RootLayout({
           {`
             (function(){
               try{
-                var allowNoFollowHosts = ['startupfa.me'];
+                var allowNoFollowHosts = [
+                  'startupfa.me',
+                  'astrocarto.org',
+                  'matrix-destiny.net',
+                  'makeitlonger.com',
+                  'annorasky.com',
+                  'landscapedesignai.net'
+                ];
                 var anchors = document.querySelectorAll('a[href^="http"], a[target="_blank"]');
                 anchors.forEach(function(a){
                   var isExternal = a.host && a.host !== window.location.host;

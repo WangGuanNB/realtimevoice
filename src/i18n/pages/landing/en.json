@@ -527,7 +527,63 @@
         }
       ]
     },
-    "badges": [],
+    "badges": [
+      {
+        "title": "AstroCarto",
+        "url": "https://astrocarto.org/",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/badges/astrocarto.svg",
+          "alt": "AstroCarto",
+          "width": 140,
+          "height": 40
+        }
+      },
+      {
+        "title": "Matrix Destiny",
+        "url": "https://matrix-destiny.net",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/badges/matrix-destiny.svg",
+          "alt": "Matrix Destiny",
+          "width": 150,
+          "height": 40
+        }
+      },
+      {
+        "title": "Make It Longer",
+        "url": "https://makeitlonger.com",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/badges/makeitlonger.svg",
+          "alt": "Make It Longer",
+          "width": 150,
+          "height": 40
+        }
+      },
+      {
+        "title": "Annora Sky",
+        "url": "https://annorasky.com",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/badges/annorasky.svg",
+          "alt": "Annora Sky",
+          "width": 130,
+          "height": 40
+        }
+      },
+      {
+        "title": "Landscape Design AI",
+        "url": "https://landscapedesignai.net",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/badges/landscapedesignai.svg",
+          "alt": "Landscape Design AI",
+          "width": 170,
+          "height": 40
+        }
+      }
+    ],
     "agreement": {
       "items": [
         {
