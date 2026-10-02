@@ -86,13 +86,17 @@ export default function Footer({ footer }: { footer: FooterType }) {
                       title={badge.title}
                       className="inline-block hover:opacity-90 transition-opacity"
                     >
-                      <img
-                        src={badge.image.src}
-                        alt={badge.image.alt || badge.title}
-                        width={Math.round((badge.image.width || 171) * 0.8)} 
-                        height={Math.round((badge.image.height || 54) * 0.8)}
-                        className="h-auto max-h-10"
-                      />
+                      {badge.image?.src ? (
+                        <img
+                          src={badge.image.src}
+                          alt={badge.image.alt || badge.title}
+                          width={Math.round((badge.image.width || 171) * 0.8)}
+                          height={Math.round((badge.image.height || 54) * 0.8)}
+                          className="h-auto max-h-10"
+                        />
+                      ) : (
+                        <span className="whitespace-nowrap text-xs">{badge.title}</span>
+                      )}
                     </a>
                   ))}
                 </div>
