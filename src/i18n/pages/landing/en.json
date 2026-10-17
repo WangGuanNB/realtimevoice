@@ -529,28 +529,6 @@
     },
     "badges": [
       {
-        "title": "AstroCarto",
-        "url": "https://astrocarto.org/",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/badges/astrocarto.svg",
-          "alt": "AstroCarto",
-          "width": 140,
-          "height": 40
-        }
-      },
-      {
-        "title": "Matrix Destiny",
-        "url": "https://matrix-destiny.net",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/badges/matrix-destiny.svg",
-          "alt": "Matrix Destiny",
-          "width": 150,
-          "height": 40
-        }
-      },
-      {
         "title": "Make It Longer",
         "url": "https://makeitlonger.com",
         "target": "_blank",
